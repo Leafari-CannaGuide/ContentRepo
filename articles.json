@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "content_version": 2,
-  "last_updated": "2026-02-17T12:00:00Z",
+  "content_version": 3,
+  "last_updated": "2026-02-17T18:30:00Z",
   "articles": [
 
     {
@@ -10,7 +10,7 @@
       "publishedAt": "2021-09-08",
       "title": "Medical Cannabis for Chronic Non-Cancer Pain",
       "subtitle": "Systematic Review & Meta-Analysis (BMJ, 2021)",
-      "readingTimeMinutes": 8,
+      "readingTimeMinutes": 9,
 
       "image": {
         "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/bmj_pain_2021.webp"
@@ -30,13 +30,13 @@
 
       "keyTakeaways": [
         {
-          "title": "Effect Size Small",
-          "body": "Average improvements are statistically significant but clinically modest.",
+          "title": "Klinischer Effekt eher gering",
+          "body": "Die statistisch signifikanten Effekte sind im Durchschnitt klinisch klein.",
           "tone": "info"
         },
         {
-          "title": "Side Effects More Common",
-          "body": "Sedation, dizziness and GI symptoms were more frequent than placebo.",
+          "title": "Nebenwirkungen deutlich häufiger",
+          "body": "Sedierung, Schwindel und gastrointestinale Beschwerden traten signifikant häufiger auf.",
           "tone": "warning"
         }
       ],
@@ -45,7 +45,27 @@
         {
           "id": "b1",
           "type": "paragraph",
-          "markdown": "This BMJ meta-analysis evaluated randomized trials of non-inhaled cannabis products for chronic pain. The authors found small improvements in pain and physical functioning compared with placebo."
+          "markdown": "Diese im BMJ veröffentlichte systematische Übersichtsarbeit analysierte 32 randomisierte kontrollierte Studien mit über 5.000 Teilnehmern, die nicht-inhalative Cannabisprodukte bei chronischen Nicht-Tumor-Schmerzen untersuchten. Berücksichtigt wurden orale Extrakte, synthetische Cannabinoide sowie Oromukosal-Sprays – Rauchen oder Vaporisieren wurden explizit ausgeschlossen."
+        },
+        {
+          "id": "b2",
+          "type": "paragraph",
+          "markdown": "Die Autoren fanden eine kleine, statistisch signifikante Reduktion der Schmerzintensität im Vergleich zu Placebo. Der durchschnittliche Unterschied lag jedoch meist unter der Schwelle, die als klinisch relevant angesehen wird. Auch leichte Verbesserungen im Schlaf wurden beobachtet."
+        },
+        {
+          "id": "b3",
+          "type": "paragraph",
+          "markdown": "Gleichzeitig zeigte sich ein konsistenter Anstieg unerwünschter Ereignisse. Besonders häufig waren Schwindel, Sedierung, kognitive Beeinträchtigung, Übelkeit und gastrointestinale Symptome. Schwerwiegende Nebenwirkungen waren selten, doch Therapieabbrüche aufgrund von Nebenwirkungen traten häufiger auf als unter Placebo."
+        },
+        {
+          "id": "b4",
+          "type": "paragraph",
+          "markdown": "Ein zentrales Ergebnis war die moderate Evidenzqualität für kurzfristige Effekte (bis ca. 3 Monate), während Langzeitdaten weitgehend fehlen. Die Autoren betonen, dass viele Studien kurze Laufzeiten hatten und heterogene Produkte mit unterschiedlichen THC/CBD-Verhältnissen untersuchten."
+        },
+        {
+          "id": "b5",
+          "type": "paragraph",
+          "markdown": "Insgesamt kommt die Analyse zu dem Schluss, dass Cannabis-basierte Medikamente bei chronischen Schmerzen eine Option sein können, jedoch mit realistischen Erwartungen: kleine Effekte bei gleichzeitig erhöhtem Nebenwirkungsrisiko."
         }
       ],
 
@@ -59,61 +79,6 @@
           "journalOrPublisher": "BMJ",
           "doi": "10.1136/bmj.n1034",
           "url": "https://www.bmj.com/content/374/bmj.n1034",
-          "credibility": "high"
-        }
-      ]
-    },
-
-    {
-      "slug": "annals-2022-chronic-pain-mcdonagh",
-      "status": "published",
-      "publishedAt": "2022-06-07",
-      "title": "Cannabis-Based Products for Chronic Pain",
-      "subtitle": "Systematic Review (Annals of Internal Medicine, 2022)",
-      "readingTimeMinutes": 9,
-
-      "image": {
-        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/annals_pain_2022.webp"
-      },
-
-      "category": "schmerz",
-      "tags": ["Systematic Review"],
-      "cannabinoids": ["thc", "cbd"],
-      "disclaimerKey": "medical_general",
-
-      "evidence": {
-        "level": "moderat",
-        "effectDirection": "mixed",
-        "studyTypes": ["systematicReview"],
-        "shortStatement": "THC-dominant products show modest benefit but increased adverse events."
-      },
-
-      "keyTakeaways": [
-        {
-          "title": "Product Profile Matters",
-          "body": "THC-rich formulations show more effect but also more harms.",
-          "tone": "info"
-        }
-      ],
-
-      "blocks": [
-        {
-          "id": "b1",
-          "type": "paragraph",
-          "markdown": "This review categorized cannabis products by THC/CBD ratio and compared clinical outcomes in chronic pain populations."
-        }
-      ],
-
-      "sources": [
-        {
-          "id": "s1",
-          "type": "review",
-          "title": "Cannabis-Based Products for Chronic Pain",
-          "authors": "McDonagh MS, et al.",
-          "year": 2022,
-          "journalOrPublisher": "Annals of Internal Medicine",
-          "doi": "10.7326/M21-4520",
-          "url": "https://www.acpjournals.org/doi/10.7326/M21-4520",
           "credibility": "high"
         }
       ]
@@ -145,9 +110,14 @@
 
       "keyTakeaways": [
         {
-          "title": "High-Level Evidence",
-          "body": "Randomized placebo-controlled trial design strengthens conclusions.",
+          "title": "Signifikante Anfallsreduktion",
+          "body": "Medianer Rückgang konvulsiver Anfälle um 39% unter CBD vs 13% unter Placebo.",
           "tone": "positive"
+        },
+        {
+          "title": "Nebenwirkungen vorhanden",
+          "body": "Somnolenz, Diarrhö und erhöhte Leberwerte traten häufiger auf.",
+          "tone": "warning"
         }
       ],
 
@@ -155,7 +125,27 @@
         {
           "id": "b1",
           "type": "paragraph",
-          "markdown": "In this landmark trial, cannabidiol reduced seizure frequency in patients with Dravet syndrome compared with placebo."
+          "markdown": "Diese randomisierte, doppelblinde, placebokontrollierte Studie im New England Journal of Medicine untersuchte 120 Kinder und junge Erwachsene mit Dravet-Syndrom, einer seltenen und schwer behandelbaren Form der Epilepsie."
+        },
+        {
+          "id": "b2",
+          "type": "paragraph",
+          "markdown": "Die Teilnehmer erhielten zusätzlich zu ihrer bestehenden antiepileptischen Medikation entweder Cannabidiol (20 mg/kg/Tag) oder Placebo. Über einen Zeitraum von 14 Wochen wurde die Häufigkeit konvulsiver Anfälle dokumentiert."
+        },
+        {
+          "id": "b3",
+          "type": "paragraph",
+          "markdown": "Das Ergebnis war klinisch relevant: Die mediane monatliche Anfallshäufigkeit sank von 12,4 auf 5,9 unter CBD, während sie unter Placebo von 14,9 auf 14,1 zurückging. 43% der CBD-Gruppe erreichten eine ≥50% Reduktion der Anfälle."
+        },
+        {
+          "id": "b4",
+          "type": "paragraph",
+          "markdown": "Nebenwirkungen waren häufig, aber meist moderat. Besonders relevant waren erhöhte Lebertransaminasen bei Kombination mit Valproat sowie Sedierung."
+        },
+        {
+          "id": "b5",
+          "type": "paragraph",
+          "markdown": "Diese Studie gilt als Meilenstein, da sie hochqualitative Evidenz für einen spezifischen medizinischen Einsatz von CBD lieferte und letztlich zur Zulassung von Epidiolex führte."
         }
       ],
 
@@ -169,60 +159,6 @@
           "journalOrPublisher": "New England Journal of Medicine",
           "doi": "10.1056/NEJMoa1611618",
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1611618",
-          "credibility": "high"
-        }
-      ]
-    },
-
-    {
-      "slug": "jama-2015-cannabinoids-medical-use",
-      "status": "published",
-      "publishedAt": "2015-06-23",
-      "title": "Cannabinoids for Medical Use",
-      "subtitle": "Systematic Review & Meta-Analysis (JAMA, 2015)",
-      "readingTimeMinutes": 9,
-
-      "image": {
-        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/jama_2015.webp"
-      },
-
-      "category": "basics",
-      "tags": ["Meta-Analysis"],
-      "cannabinoids": ["thc", "cbd"],
-      "disclaimerKey": "medical_general",
-
-      "evidence": {
-        "level": "moderat",
-        "effectDirection": "mixed",
-        "studyTypes": ["metaAnalysis"],
-        "shortStatement": "Moderate-quality evidence for certain indications; short-term adverse events common."
-      },
-
-      "keyTakeaways": [
-        {
-          "title": "Broad Evidence Overview",
-          "body": "Assessed multiple indications including pain and spasticity.",
-          "tone": "info"
-        }
-      ],
-
-      "blocks": [
-        {
-          "id": "b1",
-          "type": "paragraph",
-          "markdown": "This large meta-analysis evaluated cannabinoids across multiple therapeutic indications and assessed overall benefit-risk profiles."
-        }
-      ],
-
-      "sources": [
-        {
-          "id": "s1",
-          "type": "metaAnalysis",
-          "title": "Cannabinoids for Medical Use: A Systematic Review and Meta-analysis",
-          "authors": "Whiting PF, et al.",
-          "year": 2015,
-          "journalOrPublisher": "JAMA",
-          "url": "https://jamanetwork.com/journals/jama/fullarticle/2338251",
           "credibility": "high"
         }
       ]
@@ -254,9 +190,14 @@
 
       "keyTakeaways": [
         {
-          "title": "Best Evidence Overview",
-          "body": "Structured evaluation of what is supported by strong vs limited evidence.",
+          "title": "Starke Evidenz für chronische Schmerzen",
+          "body": "Substantial evidence for effectiveness in chronic pain.",
           "tone": "positive"
+        },
+        {
+          "title": "Klare Risiken für Psychosen",
+          "body": "Substantial evidence linking cannabis use to increased risk of psychosis.",
+          "tone": "warning"
         }
       ],
 
@@ -264,7 +205,27 @@
         {
           "id": "b1",
           "type": "paragraph",
-          "markdown": "This landmark report from the National Academies comprehensively reviewed the evidence for therapeutic and adverse health effects of cannabis."
+          "markdown": "Der Bericht der National Academies of Sciences ist eine der umfassendsten Evidenzbewertungen zu Cannabis. Über 10.000 Abstracts wurden gesichtet, hunderte Studien systematisch bewertet."
+        },
+        {
+          "id": "b2",
+          "type": "paragraph",
+          "markdown": "Die Autoren klassifizierten Evidenz in Kategorien wie 'conclusive', 'substantial', 'moderate', 'limited' und 'insufficient'. Für chronische Schmerzen, Chemotherapie-induzierte Übelkeit und MS-Spastik wurde substanzielle Evidenz festgestellt."
+        },
+        {
+          "id": "b3",
+          "type": "paragraph",
+          "markdown": "Gleichzeitig dokumentiert der Bericht klare Risiken: erhöhte Wahrscheinlichkeit für Psychosen bei vulnerablen Personen, Atemwegsprobleme bei inhalativem Konsum sowie erhöhtes Unfallrisiko im Straßenverkehr."
+        },
+        {
+          "id": "b4",
+          "type": "paragraph",
+          "markdown": "Langzeitdaten zu kognitiven Effekten sind heterogen. Früh beginnender, intensiver Konsum ist mit stärkeren negativen Auswirkungen assoziiert."
+        },
+        {
+          "id": "b5",
+          "type": "paragraph",
+          "markdown": "Der Bericht dient bis heute als Referenz für politische Entscheidungen und medizinische Leitlinien."
         }
       ],
 
