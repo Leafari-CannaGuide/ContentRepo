@@ -1,4 +1,17 @@
 {
-  "content_version": 3,
-  "last_updated": "2026-02-16T19:00:00Z"
+  "global": {
+    "last_updated": "2026-02-17T12:00:00Z"
+  },
+  "files": {
+    "articles.json": {
+      "schema_version": 1,
+      "content_version": 1,
+      "last_updated": "2026-02-17T12:00:00Z"
+    },
+    "strains_seed.json": {
+      "schema_version": 1,
+      "content_version": 3,
+      "last_updated": "2026-02-16T19:00:00Z"
+    }
+  }
 }
