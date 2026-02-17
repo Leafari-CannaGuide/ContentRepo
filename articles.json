@@ -1,86 +1,286 @@
-[
-  {
-    "id": "article-1",
-    "title": "Medical cannabis or cannabinoids for chronic non-cancer pain",
-    "subtitle": "Systematic review and meta-analysis of randomized controlled trials",
-    "publishedAt": "2021",
-    "authors": "Wang et al.",
-    "journal": "BMJ",
-    "doi": "10.1136/bmj.n1034",
-    "url": "https://www.bmj.com/content/374/bmj.n1034",
-    "summary": "Moderate to high certainty evidence shows that non-inhaled medical cannabis or cannabinoids produce a small to very small improvement in pain relief, physical functioning and sleep quality in patients with chronic pain, with several transient side effects compared with placebo. The review includes RCTs with oral cannabinoids and evaluates benefit vs harms.",
-    "keywords": ["chronic pain", "cannabinoids", "systematic review", "sleep quality"],
-    "evidenceLevel": "moderate",
-    "studyType": "systematic review/meta-analysis"
-  },
-  {
-    "id": "article-2",
-    "title": "Medical cannabis and cannabinoids for impaired sleep",
-    "subtitle": "Systematic review and meta-analysis",
-    "publishedAt": "2022",
-    "authors": "Mahmood AminiLari et al.",
-    "journal": "Sleep",
-    "doi": "10.1093/sleep/zsac045",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34546363/",
-    "summary": "This systematic review explored randomized clinical trials of medical cannabis or cannabinoids for impaired sleep. It highlights mixed results and methodological limitations, but suggests potential positive effects on some sleep parameters.",
-    "keywords": ["sleep disorders", "cannabis", "cannabinoids", "clinical trials"],
-    "evidenceLevel": "weak to moderate",
-    "studyType": "systematic review/meta-analysis"
-  },
-  {
-    "id": "article-3",
-    "title": "Cannabinoids for Anxiety and Sleep Disturbances: A Scoping Review",
-    "subtitle": "Cannabinoids effects on anxiety symptoms and sleep",
-    "publishedAt": "2025",
-    "authors": "JG Perez et al.",
-    "journal": "Frontiers in Psychiatry (open access)",
-    "doi": "PMC12695116",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12695116/",
-    "summary": "Cannabinoids, particularly CBD, showed potential efficacy in improving anxiety symptoms and sleep disturbances. However, heterogeneity in study design and cannabinoid dosing limits generalizability.",
-    "keywords": ["anxiety", "sleep disturbances", "CBD", "cannabinoids"],
-    "evidenceLevel": "weak to moderate",
-    "studyType": "scoping review"
-  },
-  {
-    "id": "article-4",
-    "title": "Cannabinoid treatments for anxiety: A systematic review",
-    "subtitle": "Anxiolytic and sedative effects of CBD",
-    "publishedAt": "2022",
-    "authors": "AJ Narayan et al.",
-    "journal": "Neuroscience & Biobehavioral Reviews",
-    "doi": "10.1016/j.neubiorev.2022.01.001",
-    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0149763422004304",
-    "summary": "Systematic review of CBD effects on anxiety and disrupted sleep, finding some anxiolytic effects of CBD in certain populations but inconsistent sleep outcomes.",
-    "keywords": ["CBD", "anxiety", "systematic review"],
-    "evidenceLevel": "weak",
-    "studyType": "systematic review"
-  },
-  {
-    "id": "article-5",
-    "title": "Cannabis for Chronic Pain: Mechanistic Insights and Clinical Evidence",
-    "subtitle": "Review of cannabis clinical evidence for neuropathy and arthritis pain",
-    "publishedAt": "2025",
-    "authors": "C Matos et al.",
-    "journal": "Cannabinoids",
-    "doi": "10.3390/2673-7140/5/1/7",
-    "url": "https://www.mdpi.com/2673-7140/5/1/7",
-    "summary": "Clinical evidence shows cannabinoids can significantly reduce chronic pain intensity, particularly neuropathic pain, and highlights mechanisms through the endocannabinoid system. It discusses dose, safety, and therapeutic contexts.",
-    "keywords": ["chronic pain", "neuropathy", "cannabinoids"],
-    "evidenceLevel": "moderate",
-    "studyType": "review"
-  },
-  {
-    "id": "article-6",
-    "title": "Therapeutic use of cannabis and cannabinoids: benefits and risks",
-    "subtitle": "Current evidence summary for multiple conditions",
-    "publishedAt": "2025",
-    "authors": "Therapeutic review authors",
-    "journal": "Polish Archives of Internal Medicine",
-    "doi": "unavailable",
-    "url": "https://www.mp.pl/paim/issue/article/17117/",
-    "summary": "A narrative synthesis of current evidence for cannabis and cannabinoids in chronic pain, insomnia, psychiatric and neurologic disorders. It highlights both potential benefits and recognized risks such as addiction, cognitive impairment, and psychosis in vulnerable groups.",
-    "keywords": ["cannabis", "benefits", "risks", "psychiatric"],
-    "evidenceLevel": "weak to moderate",
-    "studyType": "narrative review"
-  }
-]
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "last_updated": "2026-02-17T12:00:00Z",
+  "articles": [
+
+    {
+      "slug": "bmj-2021-chronic-pain-wang",
+      "status": "published",
+      "publishedAt": "2021-09-08",
+      "title": "Medical Cannabis for Chronic Non-Cancer Pain",
+      "subtitle": "Systematic Review & Meta-Analysis (BMJ, 2021)",
+      "readingTimeMinutes": 8,
+
+      "image": {
+        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/bmj_pain_2021.webp"
+      },
+
+      "category": "schmerz",
+      "tags": ["Systematic Review", "Meta-Analysis", "RCT"],
+      "cannabinoids": ["thc", "cbd"],
+      "disclaimerKey": "medical_general",
+
+      "evidence": {
+        "level": "moderat",
+        "effectDirection": "mixed",
+        "studyTypes": ["systematicReview", "metaAnalysis"],
+        "shortStatement": "Small to very small improvements in pain and sleep, with increased short-term adverse events."
+      },
+
+      "keyTakeaways": [
+        {
+          "title": "Effect Size Small",
+          "body": "Average improvements are statistically significant but clinically modest.",
+          "tone": "info"
+        },
+        {
+          "title": "Side Effects More Common",
+          "body": "Sedation, dizziness and GI symptoms were more frequent than placebo.",
+          "tone": "warning"
+        }
+      ],
+
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "paragraph",
+          "markdown": "This BMJ meta-analysis evaluated randomized trials of non-inhaled cannabis products for chronic pain. The authors found small improvements in pain and physical functioning compared with placebo."
+        }
+      ],
+
+      "sources": [
+        {
+          "id": "s1",
+          "type": "metaAnalysis",
+          "title": "Medical cannabis or cannabinoids for chronic non-cancer pain",
+          "authors": "Wang L, et al.",
+          "year": 2021,
+          "journalOrPublisher": "BMJ",
+          "doi": "10.1136/bmj.n1034",
+          "url": "https://www.bmj.com/content/374/bmj.n1034",
+          "credibility": "high"
+        }
+      ]
+    },
+
+    {
+      "slug": "annals-2022-chronic-pain-mcdonagh",
+      "status": "published",
+      "publishedAt": "2022-06-07",
+      "title": "Cannabis-Based Products for Chronic Pain",
+      "subtitle": "Systematic Review (Annals of Internal Medicine, 2022)",
+      "readingTimeMinutes": 9,
+
+      "image": {
+        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/annals_pain_2022.webp"
+      },
+
+      "category": "schmerz",
+      "tags": ["Systematic Review"],
+      "cannabinoids": ["thc", "cbd"],
+      "disclaimerKey": "medical_general",
+
+      "evidence": {
+        "level": "moderat",
+        "effectDirection": "mixed",
+        "studyTypes": ["systematicReview"],
+        "shortStatement": "THC-dominant products show modest benefit but increased adverse events."
+      },
+
+      "keyTakeaways": [
+        {
+          "title": "Product Profile Matters",
+          "body": "THC-rich formulations show more effect but also more harms.",
+          "tone": "info"
+        }
+      ],
+
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "paragraph",
+          "markdown": "This review categorized cannabis products by THC/CBD ratio and compared clinical outcomes in chronic pain populations."
+        }
+      ],
+
+      "sources": [
+        {
+          "id": "s1",
+          "type": "review",
+          "title": "Cannabis-Based Products for Chronic Pain",
+          "authors": "McDonagh MS, et al.",
+          "year": 2022,
+          "journalOrPublisher": "Annals of Internal Medicine",
+          "doi": "10.7326/M21-4520",
+          "url": "https://www.acpjournals.org/doi/10.7326/M21-4520",
+          "credibility": "high"
+        }
+      ]
+    },
+
+    {
+      "slug": "nejm-2017-cbd-dravet-devinsky",
+      "status": "published",
+      "publishedAt": "2017-05-25",
+      "title": "Cannabidiol in Dravet Syndrome",
+      "subtitle": "Randomized Controlled Trial (NEJM, 2017)",
+      "readingTimeMinutes": 10,
+
+      "image": {
+        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/nejm_cbd_2017.webp"
+      },
+
+      "category": "neurologie",
+      "tags": ["RCT", "CBD"],
+      "cannabinoids": ["cbd"],
+      "disclaimerKey": "medical_general",
+
+      "evidence": {
+        "level": "stark",
+        "effectDirection": "beneficial",
+        "studyTypes": ["rct"],
+        "shortStatement": "CBD significantly reduced convulsive seizure frequency compared with placebo."
+      },
+
+      "keyTakeaways": [
+        {
+          "title": "High-Level Evidence",
+          "body": "Randomized placebo-controlled trial design strengthens conclusions.",
+          "tone": "positive"
+        }
+      ],
+
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "paragraph",
+          "markdown": "In this landmark trial, cannabidiol reduced seizure frequency in patients with Dravet syndrome compared with placebo."
+        }
+      ],
+
+      "sources": [
+        {
+          "id": "s1",
+          "type": "study",
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome",
+          "authors": "Devinsky O, et al.",
+          "year": 2017,
+          "journalOrPublisher": "New England Journal of Medicine",
+          "doi": "10.1056/NEJMoa1611618",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1611618",
+          "credibility": "high"
+        }
+      ]
+    },
+
+    {
+      "slug": "jama-2015-cannabinoids-medical-use",
+      "status": "published",
+      "publishedAt": "2015-06-23",
+      "title": "Cannabinoids for Medical Use",
+      "subtitle": "Systematic Review & Meta-Analysis (JAMA, 2015)",
+      "readingTimeMinutes": 9,
+
+      "image": {
+        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/jama_2015.webp"
+      },
+
+      "category": "basics",
+      "tags": ["Meta-Analysis"],
+      "cannabinoids": ["thc", "cbd"],
+      "disclaimerKey": "medical_general",
+
+      "evidence": {
+        "level": "moderat",
+        "effectDirection": "mixed",
+        "studyTypes": ["metaAnalysis"],
+        "shortStatement": "Moderate-quality evidence for certain indications; short-term adverse events common."
+      },
+
+      "keyTakeaways": [
+        {
+          "title": "Broad Evidence Overview",
+          "body": "Assessed multiple indications including pain and spasticity.",
+          "tone": "info"
+        }
+      ],
+
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "paragraph",
+          "markdown": "This large meta-analysis evaluated cannabinoids across multiple therapeutic indications and assessed overall benefit-risk profiles."
+        }
+      ],
+
+      "sources": [
+        {
+          "id": "s1",
+          "type": "metaAnalysis",
+          "title": "Cannabinoids for Medical Use: A Systematic Review and Meta-analysis",
+          "authors": "Whiting PF, et al.",
+          "year": 2015,
+          "journalOrPublisher": "JAMA",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2338251",
+          "credibility": "high"
+        }
+      ]
+    },
+
+    {
+      "slug": "nasem-2017-health-effects-cannabis",
+      "status": "published",
+      "publishedAt": "2017-01-12",
+      "title": "The Health Effects of Cannabis and Cannabinoids",
+      "subtitle": "National Academies Report (2017)",
+      "readingTimeMinutes": 11,
+
+      "image": {
+        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/nasem_2017.webp"
+      },
+
+      "category": "basics",
+      "tags": ["Evidence Report"],
+      "cannabinoids": ["thc", "cbd"],
+      "disclaimerKey": "medical_general",
+
+      "evidence": {
+        "level": "stark",
+        "effectDirection": "mixed",
+        "studyTypes": ["guideline", "systematicReview"],
+        "shortStatement": "Comprehensive evidence review summarizing therapeutic benefits and risks."
+      },
+
+      "keyTakeaways": [
+        {
+          "title": "Best Evidence Overview",
+          "body": "Structured evaluation of what is supported by strong vs limited evidence.",
+          "tone": "positive"
+        }
+      ],
+
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "paragraph",
+          "markdown": "This landmark report from the National Academies comprehensively reviewed the evidence for therapeutic and adverse health effects of cannabis."
+        }
+      ],
+
+      "sources": [
+        {
+          "id": "s1",
+          "type": "book",
+          "title": "The Health Effects of Cannabis and Cannabinoids",
+          "authors": "National Academies of Sciences, Engineering, and Medicine",
+          "year": 2017,
+          "doi": "10.17226/24625",
+          "url": "https://www.nationalacademies.org/publications/24625",
+          "credibility": "high"
+        }
+      ]
+    }
+
+  ]
+}
