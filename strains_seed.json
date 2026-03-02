@@ -1,6 +1,6 @@
 [
   {
-    "name": "Amnesia Haze T",
+    "name": "Amnesia Haze",
     "aka": ["Amnesia"],
     "chemotype": "thcDominant",
     "thc": 20.5,
@@ -41,6 +41,15 @@
           "ref": "turn0search4"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Hoher Stretch in Frühblüte (Woche 1–3) – Höhe einplanen",
+        "Pflege-Check-ins eher häufiger als fixer Gieß-Rhythmus"
+      ]
     }
   },
   {
@@ -80,6 +89,15 @@
           "ref": "turn0search5"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Ausgeglichenes Profil – Standard-Umgebung pro Phase passt meist gut",
+        "Pflege-Check statt starrem Gießintervall empfohlen"
+      ]
     }
   },
   {
@@ -118,6 +136,15 @@
           "note": "Ernte nach ~65–70 Tagen Blüte (Listing-Angabe)",
           "ref": "turn0search19"
         }
+      ]
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Typisch unkompliziert – Einsteigerfreundlich",
+        "In später Blüte RH eher im Blick behalten"
       ]
     }
   },
@@ -163,6 +190,15 @@
           "ref": "turn1search17"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Blüten – späte Blüte: Luftfeuchte eher konservativ",
+        "Pflege-Check-ins statt starrem Gießintervall"
+      ]
     }
   },
   {
@@ -201,6 +237,15 @@
           "note": "Flowering time 9–10 weeks",
           "ref": "turn0search2"
         }
+      ]
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Stabiler Hybrid – Standard-Umgebung pro Phase meist passend",
+        "Bei spätem Flowering: RH nicht zu hoch"
       ]
     }
   },
@@ -241,6 +286,15 @@
           "ref": "turn1search3"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Einsteigerfreundlich – Pflege-Defaults funktionieren oft gut",
+        "Späte Blüte: RH & Airflow im Blick"
+      ]
     }
   },
   {
@@ -280,6 +334,15 @@
           "ref": "turn1search5"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Hoher Stretch in Frühblüte – Höhe/Training einplanen",
+        "Pflege-Check-ins eher häufiger als fixer Rhythmus"
+      ]
     }
   },
   {
@@ -313,6 +376,15 @@
       "difficulty": "medium",
       "confidence": "medium",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Blüten möglich – späte Blüte: RH konservativer",
+        "Ohne verlässliche Quellen: als Schätzung behandeln"
+      ]
     }
   },
   {
@@ -352,12 +424,17 @@
           "ref": "turn1search1"
         }
       ]
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt/robust – eher moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer wegen dichter Blüten"
+      ]
     }
   },
-
-  // -------------------------
-  // Ab hier: solide Defaults (family-/genetikbasiert), Quellenliste leer → später pro Sorte nachpflegen
-  // -------------------------
 
   {
     "name": "Pineapple Express",
@@ -390,6 +467,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence) – als Startpunkt nutzen",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
   {
@@ -423,6 +509,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence) – später mit Quellen nachpflegen",
+        "Pflege-Check statt fixem Intervall"
+      ]
     }
   },
   {
@@ -456,9 +551,17 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Starker Stretch möglich – Höhe/Training einplanen",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
-
   {
     "name": "Maui Wowie",
     "aka": [],
@@ -490,9 +593,17 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Langer Zyklus (Schätzung) – Geduld einplanen",
+        "Pflege-Check-ins eher häufiger"
+      ]
     }
   },
-
   {
     "name": "Critical Mass",
     "aka": [],
@@ -524,9 +635,17 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt & dichte Buds möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
-
   {
     "name": "Jack Herer",
     "aka": [],
@@ -558,9 +677,17 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Frühblüte besonders beobachten",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
-
   {
     "name": "Super Lemon Haze",
     "aka": ["SLH"],
@@ -592,6 +719,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Sehr hoher Stretch möglich – Höhe/Training einplanen",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -626,6 +762,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence) – später nachpflegen",
+        "Pflege-Check statt fixem Intervall"
+      ]
     }
   },
 
@@ -660,6 +805,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Blüten möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -694,6 +848,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Frühblüte besonders beobachten",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -728,6 +891,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Höhe/Training einplanen",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -762,6 +934,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Sehr hoher Stretch möglich – Frühblüte: Check-ins engmaschiger",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -796,6 +977,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – eher moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer (dichte Buds möglich)"
+      ]
     }
   },
 
@@ -830,6 +1020,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Blüten möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -864,6 +1063,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Blüten möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -898,6 +1106,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Späte Blüte: RH konservativer (dichte Buds möglich)",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -932,6 +1149,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
 
@@ -966,6 +1192,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt & dichte Buds möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1000,6 +1235,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
 
@@ -1034,6 +1278,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer (dichte Buds möglich)"
+      ]
     }
   },
 
@@ -1068,6 +1321,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – eher moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer"
+      ]
     }
   },
 
@@ -1102,6 +1364,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Hoher Stretch möglich – Frühblüte: Check-ins enger",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1136,6 +1407,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer (dichte Buds möglich)"
+      ]
     }
   },
 
@@ -1170,6 +1450,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer"
+      ]
     }
   },
 
@@ -1204,6 +1493,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Frühblüte: Check-ins enger",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1238,6 +1536,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Standard-Umgebung pro Phase meist passend"
+      ]
     }
   },
 
@@ -1272,6 +1579,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer (dichte Buds möglich)"
+      ]
     }
   },
 
@@ -1306,6 +1622,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
 
@@ -1340,6 +1665,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "In später Blüte RH im Blick behalten"
+      ]
     }
   },
 
@@ -1374,6 +1708,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Frühblüte: Check-ins enger",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1408,6 +1751,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer"
+      ]
     }
   },
 
@@ -1442,6 +1794,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
 
@@ -1476,6 +1837,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Standard-Umgebung pro Phase meist passend"
+      ]
     }
   },
 
@@ -1510,6 +1880,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "high",
+      "budDensity": "airy",
+      "humiditySensitivityLateFlower": "low",
+      "notes": [
+        "Stretch möglich – Frühblüte: Check-ins enger",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1544,6 +1923,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt & dichte Buds möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1578,6 +1966,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Dichte Buds möglich – späte Blüte: RH konservativer",
+        "Default-Schätzung (low confidence)"
+      ]
     }
   },
 
@@ -1612,6 +2009,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   },
 
@@ -1646,6 +2052,15 @@
       "difficulty": "easy",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "low",
+      "budDensity": "dense",
+      "humiditySensitivityLateFlower": "high",
+      "notes": [
+        "Kompakt – moderater Wasserbedarf",
+        "Späte Blüte: RH konservativer"
+      ]
     }
   },
 
@@ -1680,6 +2095,15 @@
       "difficulty": "medium",
       "confidence": "low",
       "sources": []
+    },
+    "careProfile": {
+      "waterNeed": "medium",
+      "budDensity": "medium",
+      "humiditySensitivityLateFlower": "medium",
+      "notes": [
+        "Default-Schätzung (low confidence)",
+        "Späte Blüte: RH/Airflow im Blick"
+      ]
     }
   }
 ]
