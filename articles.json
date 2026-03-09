@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_version": 3,
+  "content_version": 4,
   "last_updated": "2026-02-17T18:30:00Z",
   "articles": [
 
@@ -13,7 +13,7 @@
       "readingTimeMinutes": 9,
 
       "image": {
-        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/bmj_pain_2021.webp"
+        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_bmj-2021-chronic-pain-wang.webp"
       },
 
       "category": "schmerz",
@@ -93,7 +93,7 @@
       "readingTimeMinutes": 10,
 
       "image": {
-        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/nejm_cbd_2017.webp"
+        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_nejm-2017-cbd-dravet-devinsky.webp"
       },
 
       "category": "neurologie",
@@ -173,7 +173,7 @@
       "readingTimeMinutes": 11,
 
       "image": {
-        "remoteURL": "https://YOUR_GITHUB_RAW_URL/assets/med/nasem_2017.webp"
+        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_nasem-2017-health-effects-cannabis.webp"
       },
 
       "category": "basics",
