@@ -8,7 +8,7 @@
     "terpenes": ["Limonen", "Caryophyllen", "Myrcen"],
     "effectTags": ["euphorisch", "energetisch", "kreativ"],
     "flavorTags": ["Zitrus", "erdig"],
-    "imageName": "strain_amnesia",
+    "imageName": "strain_amnesia_haze",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -157,7 +157,7 @@
     "terpenes": ["Caryophyllen", "Limonen"],
     "effectTags": ["entspannt", "glücklich"],
     "flavorTags": ["erdig", "kiefernartig"],
-    "imageName": "strain_ogkush",
+    "imageName": "strain_og_kush",
     "onsetSpeed": "medium",
     "intensityTendency": "high",
     "sedationScore": 1,
@@ -306,7 +306,7 @@
     "terpenes": ["Limonen", "Caryophyllen", "Pinene"],
     "effectTags": ["energetisch", "kreativ", "aufmerksam"],
     "flavorTags": ["diesel", "zitronig", "scharf"],
-    "imageName": "strain_sourdiesel",
+    "imageName": "strain_sour_diesel",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -354,7 +354,7 @@
     "terpenes": ["Caryophyllen", "Limonen", "Humulen"],
     "effectTags": ["glücklich", "entspannt", "hungrig"],
     "flavorTags": ["süß", "erdig", "minzig"],
-    "imageName": "strain_gsc",
+    "imageName": "strain_girl_scout_cookies",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -396,7 +396,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Humulen"],
     "effectTags": ["schläfrig", "beruhigend", "hungrig"],
     "flavorTags": ["süß", "kiefer", "würzig"],
-    "imageName": "strain_northernlights",
+    "imageName": "strain_northern_lights",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -435,7 +435,6 @@
       ]
     }
   },
-
   {
     "name": "Pineapple Express",
     "aka": [],
@@ -445,7 +444,7 @@
     "terpenes": ["Limonen", "Myrcen", "Caryophyllen"],
     "effectTags": ["energetisch", "kreativ", "glücklich"],
     "flavorTags": ["ananas", "fruchtig", "süß"],
-    "imageName": "strain_pineappleexpress",
+    "imageName": "strain_pineapple_express",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -487,7 +486,7 @@
     "terpenes": ["Caryophyllen", "Myrcen", "Limonen"],
     "effectTags": ["entspannt", "glücklich", "kreativ"],
     "flavorTags": ["erdig", "blumig", "süß"],
-    "imageName": "strain_ak47",
+    "imageName": "strain_ak_47",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -529,7 +528,7 @@
     "terpenes": ["Myrcen", "Pinene", "Limonen"],
     "effectTags": ["fokussiert", "energetisch", "aufmerksam"],
     "flavorTags": ["fruchtig", "erdig", "zitronig"],
-    "imageName": "strain_greencrack",
+    "imageName": "strain_green_crack",
     "onsetSpeed": "fast",
     "intensityTendency": "high",
     "sedationScore": 0,
@@ -571,7 +570,7 @@
     "terpenes": ["Limonen", "Myrcen", "Caryophyllen"],
     "effectTags": ["glücklich", "kreativ", "energetisch"],
     "flavorTags": ["tropisch", "ananas", "süß"],
-    "imageName": "strain_mauiwowie",
+    "imageName": "strain_maui_wowie",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -613,7 +612,7 @@
     "terpenes": ["Myrcen", "Humulen", "Pinene"],
     "effectTags": ["entspannt", "beruhigend", "klar"],
     "flavorTags": ["erdig", "süß", "fruchtig"],
-    "imageName": "strain_criticalmass",
+    "imageName": "strain_critical_mass",
     "onsetSpeed": "slow",
     "intensityTendency": "low",
     "sedationScore": 2,
@@ -655,7 +654,7 @@
     "terpenes": ["Terpinolen", "Caryophyllen", "Pinene"],
     "effectTags": ["kreativ", "gesprächig", "energetisch"],
     "flavorTags": ["würzig", "kiefer", "zitronig"],
-    "imageName": "strain_jackherer",
+    "imageName": "strain_jack_herer",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -697,7 +696,7 @@
     "terpenes": ["Limonen", "Terpinolen", "Caryophyllen"],
     "effectTags": ["energetisch", "gesprächig", "kreativ"],
     "flavorTags": ["zitronig", "süß", "scharf"],
-    "imageName": "strain_superlemonhaze",
+    "imageName": "strain_super_lemon_haze",
     "onsetSpeed": "fast",
     "intensityTendency": "high",
     "sedationScore": 0,
@@ -730,7 +729,6 @@
       ]
     }
   },
-
   {
     "name": "Chemdawg",
     "aka": [],
@@ -773,7 +771,6 @@
       ]
     }
   },
-
   {
     "name": "Banana Kush",
     "aka": [],
@@ -783,7 +780,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Limonen"],
     "effectTags": ["entspannt", "glücklich", "kreativ"],
     "flavorTags": ["banane", "süß", "fruchtig"],
-    "imageName": "strain_bananakush",
+    "imageName": "strain_banana_kush",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -816,7 +813,6 @@
       ]
     }
   },
-
   {
     "name": "Trainwreck",
     "aka": [],
@@ -859,7 +855,6 @@
       ]
     }
   },
-
   {
     "name": "Strawberry Cough",
     "aka": [],
@@ -869,7 +864,7 @@
     "terpenes": ["Myrcen", "Linalool", "Caryophyllen"],
     "effectTags": ["glücklich", "gesprächig", "fokussiert"],
     "flavorTags": ["erdbeere", "süß", "fruchtig"],
-    "imageName": "strain_strawberrycough",
+    "imageName": "strain_strawberry_cough",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -902,7 +897,6 @@
       ]
     }
   },
-
   {
     "name": "Durban Poison",
     "aka": [],
@@ -912,7 +906,7 @@
     "terpenes": ["Terpinolen", "Limonen", "Caryophyllen"],
     "effectTags": ["energetisch", "aufmerksam", "klar"],
     "flavorTags": ["süß", "erdig", "würzig"],
-    "imageName": "strain_durbanpoison",
+    "imageName": "strain_durban_poison",
     "onsetSpeed": "fast",
     "intensityTendency": "high",
     "sedationScore": 0,
@@ -945,7 +939,6 @@
       ]
     }
   },
-
   {
     "name": "LA Confidential",
     "aka": [],
@@ -955,7 +948,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Limonen"],
     "effectTags": ["beruhigend", "schläfrig", "entspannt"],
     "flavorTags": ["erdig", "kiefer", "süß"],
-    "imageName": "strain_laconfidential",
+    "imageName": "strain_la_confidential",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -988,7 +981,6 @@
       ]
     }
   },
-
   {
     "name": "Cherry Pie",
     "aka": [],
@@ -998,7 +990,7 @@
     "terpenes": ["Myrcen", "Limonen", "Caryophyllen"],
     "effectTags": ["glücklich", "entspannt", "hungrig"],
     "flavorTags": ["kirsche", "süß", "erdig"],
-    "imageName": "strain_cherrypie",
+    "imageName": "strain_cherry_pie",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -1031,7 +1023,6 @@
       ]
     }
   },
-
   {
     "name": "Alien OG",
     "aka": [],
@@ -1041,7 +1032,7 @@
     "terpenes": ["Caryophyllen", "Myrcen", "Limonen"],
     "effectTags": ["energetisch", "euphorisch", "entspannt"],
     "flavorTags": ["erdig", "kiefer", "scharf"],
-    "imageName": "strain_alienog",
+    "imageName": "strain_alien_og",
     "onsetSpeed": "fast",
     "intensityTendency": "high",
     "sedationScore": 1,
@@ -1074,7 +1065,6 @@
       ]
     }
   },
-
   {
     "name": "Zkittlez",
     "aka": [],
@@ -1117,7 +1107,6 @@
       ]
     }
   },
-
   {
     "name": "Runtz",
     "aka": [],
@@ -1160,7 +1149,6 @@
       ]
     }
   },
-
   {
     "name": "Do-Si-Dos",
     "aka": [],
@@ -1170,7 +1158,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Linalool"],
     "effectTags": ["entspannt", "schläfrig", "hungrig"],
     "flavorTags": ["erdig", "süß", "minzig"],
-    "imageName": "strain_dosidos",
+    "imageName": "strain_do_si_dos",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -1203,7 +1191,6 @@
       ]
     }
   },
-
   {
     "name": "Gelato",
     "aka": [],
@@ -1246,7 +1233,6 @@
       ]
     }
   },
-
   {
     "name": "Skywalker OG",
     "aka": [],
@@ -1256,7 +1242,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Limonen"],
     "effectTags": ["entspannt", "schläfrig", "beruhigend"],
     "flavorTags": ["erdig", "kiefer", "scharf"],
-    "imageName": "strain_skywalkerog",
+    "imageName": "strain_skywalker_og",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -1289,7 +1275,6 @@
       ]
     }
   },
-
   {
     "name": "Bubble Gum",
     "aka": [],
@@ -1299,7 +1284,7 @@
     "terpenes": ["Myrcen", "Linalool", "Caryophyllen"],
     "effectTags": ["glücklich", "sozial", "entspannt"],
     "flavorTags": ["süß", "blume", "beere"],
-    "imageName": "strain_bubblegum",
+    "imageName": "strain_bubble_gum",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -1332,7 +1317,6 @@
       ]
     }
   },
-
   {
     "name": "Purple Haze",
     "aka": [],
@@ -1342,7 +1326,7 @@
     "terpenes": ["Myrcen", "Pinene", "Caryophyllen"],
     "effectTags": ["kreativ", "energetisch", "klar"],
     "flavorTags": ["beere", "erdig", "süß"],
-    "imageName": "strain_purplehaze",
+    "imageName": "strain_purple_haze",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -1375,7 +1359,6 @@
       ]
     }
   },
-
   {
     "name": "Kosher Kush",
     "aka": [],
@@ -1385,7 +1368,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Limonen"],
     "effectTags": ["schläfrig", "tiefenentspannt"],
     "flavorTags": ["erdig", "holzig", "würzig"],
-    "imageName": "strain_kosherkush",
+    "imageName": "strain_kosher_kush",
     "onsetSpeed": "slow",
     "intensityTendency": "high",
     "sedationScore": 2,
@@ -1418,7 +1401,6 @@
       ]
     }
   },
-
   {
     "name": "Blueberry",
     "aka": [],
@@ -1461,7 +1443,6 @@
       ]
     }
   },
-
   {
     "name": "Lemon Skunk",
     "aka": [],
@@ -1471,7 +1452,7 @@
     "terpenes": ["Limonen", "Myrcen", "Caryophyllen"],
     "effectTags": ["energetisch", "fokussiert", "kreativ"],
     "flavorTags": ["zitronig", "skunk", "scharf"],
-    "imageName": "strain_lemonskunk",
+    "imageName": "strain_lemon_skunk",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -1504,7 +1485,6 @@
       ]
     }
   },
-
   {
     "name": "Cannatonic",
     "aka": [],
@@ -1547,7 +1527,6 @@
       ]
     }
   },
-
   {
     "name": "Godfather OG",
     "aka": [],
@@ -1557,7 +1536,7 @@
     "terpenes": ["Caryophyllen", "Myrcen", "Humulen"],
     "effectTags": ["stark beruhigend", "schläfrig"],
     "flavorTags": ["erdig", "scharf", "holzig"],
-    "imageName": "strain_godfatherog",
+    "imageName": "strain_godfather_og",
     "onsetSpeed": "slow",
     "intensityTendency": "high",
     "sedationScore": 2,
@@ -1590,7 +1569,6 @@
       ]
     }
   },
-
   {
     "name": "Orange Sherbet",
     "aka": [],
@@ -1600,7 +1578,7 @@
     "terpenes": ["Limonen", "Caryophyllen", "Myrcen"],
     "effectTags": ["glücklich", "kreativ", "sozial"],
     "flavorTags": ["orange", "fruchtig", "süß"],
-    "imageName": "strain_orangesherbet",
+    "imageName": "strain_orange_sherbet",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -1633,7 +1611,6 @@
       ]
     }
   },
-
   {
     "name": "Gorilla Glue #4",
     "aka": ["GG4"],
@@ -1643,7 +1620,7 @@
     "terpenes": ["Caryophyllen", "Humulen", "Myrcen"],
     "effectTags": ["entspannt", "beruhigend", "schwer"],
     "flavorTags": ["erdig", "scharf", "diesel"],
-    "imageName": "strain_gg4",
+    "imageName": "strain_gorilla_glue_4",
     "onsetSpeed": "slow",
     "intensityTendency": "high",
     "sedationScore": 2,
@@ -1676,7 +1653,6 @@
       ]
     }
   },
-
   {
     "name": "Bruce Banner",
     "aka": [],
@@ -1686,7 +1662,7 @@
     "terpenes": ["Limonen", "Myrcen", "Caryophyllen"],
     "effectTags": ["energetisch", "euphorisch", "kreativ"],
     "flavorTags": ["fruchtig", "beere", "scharf"],
-    "imageName": "strain_brucebannner",
+    "imageName": "strain_bruce_banner",
     "onsetSpeed": "fast",
     "intensityTendency": "high",
     "sedationScore": 0,
@@ -1719,7 +1695,6 @@
       ]
     }
   },
-
   {
     "name": "Forbidden Fruit",
     "aka": [],
@@ -1729,7 +1704,7 @@
     "terpenes": ["Myrcen", "Linalool", "Caryophyllen"],
     "effectTags": ["entspannt", "glücklich"],
     "flavorTags": ["fruchtig", "traube", "süß"],
-    "imageName": "strain_forbiddenfruit",
+    "imageName": "strain_forbidden_fruit",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -1762,7 +1737,6 @@
       ]
     }
   },
-
   {
     "name": "Cereal Milk",
     "aka": [],
@@ -1772,7 +1746,7 @@
     "terpenes": ["Limonen", "Caryophyllen", "Myrcen"],
     "effectTags": ["kreativ", "glücklich", "fokussiert"],
     "flavorTags": ["süß", "milchig", "beere"],
-    "imageName": "strain_cerealmilk",
+    "imageName": "strain_cereal_milk",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
@@ -1805,7 +1779,6 @@
       ]
     }
   },
-
   {
     "name": "Peach Cobbler",
     "aka": [],
@@ -1815,7 +1788,7 @@
     "terpenes": ["Myrcen", "Linalool", "Caryophyllen"],
     "effectTags": ["entspannt", "sozial"],
     "flavorTags": ["pfirsich", "süß", "fruchtig"],
-    "imageName": "strain_peachcobbler",
+    "imageName": "strain_peach_cobbler",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -1848,7 +1821,6 @@
       ]
     }
   },
-
   {
     "name": "Mimosa",
     "aka": [],
@@ -1891,7 +1863,6 @@
       ]
     }
   },
-
   {
     "name": "Slurricane",
     "aka": [],
@@ -1934,7 +1905,6 @@
       ]
     }
   },
-
   {
     "name": "Wedding Cake",
     "aka": [],
@@ -1944,7 +1914,7 @@
     "terpenes": ["Caryophyllen", "Limonen", "Humulen"],
     "effectTags": ["glücklich", "kreativ", "beruhigend"],
     "flavorTags": ["süß", "vanille", "kuchen"],
-    "imageName": "strain_weddingcake",
+    "imageName": "strain_wedding_cake",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -1977,7 +1947,6 @@
       ]
     }
   },
-
   {
     "name": "Apple Fritter",
     "aka": [],
@@ -1987,7 +1956,7 @@
     "terpenes": ["Limonen", "Myrcen", "Caryophyllen"],
     "effectTags": ["glücklich", "entspannt", "kreativ"],
     "flavorTags": ["apfel", "süß", "teig"],
-    "imageName": "strain_applefritter",
+    "imageName": "strain_apple_fritter",
     "onsetSpeed": "medium",
     "intensityTendency": "medium",
     "sedationScore": 1,
@@ -2020,7 +1989,6 @@
       ]
     }
   },
-
   {
     "name": "Ice Cream Cake",
     "aka": [],
@@ -2030,7 +1998,7 @@
     "terpenes": ["Myrcen", "Caryophyllen", "Linalool"],
     "effectTags": ["entspannt", "schläfrig"],
     "flavorTags": ["süß", "dessert", "vanille"],
-    "imageName": "strain_icecreamcake",
+    "imageName": "strain_ice_cream_cake",
     "onsetSpeed": "slow",
     "intensityTendency": "medium",
     "sedationScore": 2,
@@ -2063,7 +2031,6 @@
       ]
     }
   },
-
   {
     "name": "Mac 1",
     "aka": ["Miracle Alien Cookies"],
@@ -2073,7 +2040,7 @@
     "terpenes": ["Caryophyllen", "Limonen", "Myrcen"],
     "effectTags": ["fokussiert", "kreativ", "glücklich"],
     "flavorTags": ["diesel", "zitrus", "süß"],
-    "imageName": "strain_mac1",
+    "imageName": "strain_mac_1",
     "onsetSpeed": "fast",
     "intensityTendency": "medium",
     "sedationScore": 0,
