@@ -12,6 +12,11 @@
       "schema_version": 4,
       "content_version": 8,
       "last_updated": "2026-03-02T19:24:00Z"
+    },
+    "growProblems.json": {
+      "schema_version": 1,
+      "content_version": 1,
+      "last_updated": "2026-03-13T19:00:00Z"
     }
   }
 }
