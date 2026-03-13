@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "last_updated": "2026-03-13",
+  "module": "wissen_anbau_haeufige_probleme",
+  "locale": "de-DE",
+  "disclaimer": "Die Inhalte dienen der allgemeinen Orientierung zur Symptom-Erkennung im Homegrow. Diagnosen bleiben immer Wahrscheinlichkeiten. Mehrere Probleme können gleichzeitig auftreten.",
+  "ui": {
+    "card_group_title": "Häufige Probleme",
+    "detail_view_title": "Problem erkennen & lösen"
+  },
+  "problems": [
+    {
+      "id": "yellow_leaves_n_deficiency",
+      "slug": "gelbe-blaetter-n-mangel",
+      "name": "Gelbe Blätter",
+      "subtitle": "Häufig: Stickstoffmangel (N-Mangel)",
+      "category": "naehrstoffmangel",
+      "priority": 1,
+      "overview": "Ein Stickstoffmangel zeigt sich meist zuerst an älteren, unteren Blättern. Die Pflanze verlagert mobilen Stickstoff in neues Wachstum, wodurch die unteren Blätter heller werden, vergilben und später absterben.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["vegetation", "fruehe_bluete"],
+      "key_symptoms": [
+        "Vergilbung beginnt meist an unteren, älteren Blättern",
+        "Pflanze wirkt insgesamt heller oder blasser als sonst",
+        "Gelbe Blätter welken, können braune Stellen entwickeln und fallen später ab",
+        "Wachstum verlangsamt sich",
+        "Neue Triebe bleiben anfangs oft grüner als altes Laub"
+      ],
+      "likely_causes": [
+        "Zu geringe Nährstoffversorgung im Wachstum",
+        "pH-Wert im Wurzelbereich blockiert die Aufnahme",
+        "Ausgelaugtes Substrat oder zu lange kein Nachdüngen",
+        "Wurzelschäden durch Staunässe oder Sauerstoffmangel",
+        "Starkes Spülen ohne anschließende angepasste Nährstoffgabe"
+      ],
+      "how_to_confirm": [
+        "Prüfen, ob die Symptome unten an der Pflanze begonnen haben",
+        "Düngeplan der letzten 7 bis 14 Tage prüfen",
+        "Substrat- oder Drain-pH kontrollieren",
+        "Wurzelzone prüfen: dauerhaft nasses Medium kann Mangelbilder mitverursachen",
+        "Abgleichen, ob eher gleichmäßige Vergilbung statt fleckiger Schäden vorliegt"
+      ],
+      "immediate_actions": [
+        "pH im Zielbereich stabilisieren",
+        "Moderate, wachstumsphasengerechte N-Gabe einplanen statt zu überkorrigieren",
+        "Gießverhalten prüfen und Staunässe vermeiden",
+        "Stark beschädigte, vollständig abgestorbene Blätter erst entfernen, wenn sie keinen Beitrag mehr leisten"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Ursache eingrenzen",
+          "details": "Erst pH, Gießrhythmus und zuletzt die eigentliche Nährstoffmenge prüfen. Ein echter N-Mangel ist oft nicht nur ein Düngemangel, sondern manchmal eine Aufnahmeblockade."
+        },
+        {
+          "step": 2,
+          "title": "Sanft korrigieren",
+          "details": "Nährstoffversorgung vorsichtig erhöhen und der Phase anpassen. Keine aggressive Überdüngung als Schnelllösung."
+        },
+        {
+          "step": 3,
+          "title": "Verlauf beobachten",
+          "details": "Neue Blätter sind der beste Indikator. Bereits gelbe Blätter werden oft nicht mehr grün, entscheidend ist die Stabilisierung des Neuwuchses."
+        },
+        {
+          "step": 4,
+          "title": "Folgefehler vermeiden",
+          "details": "Nicht gleichzeitig zu stark gießen, umtopfen und massiv düngen. Zu viele Korrekturen auf einmal erschweren die Diagnose."
+        }
+      ],
+      "prevention": [
+        "Wachstumsdünger phasengerecht einsetzen",
+        "Substrat nicht auslaugen lassen, besonders in längeren Vegi-Phasen",
+        "pH regelmäßig prüfen",
+        "Gleichmäßigen Gießrhythmus statt ständiger Nässe einhalten",
+        "Blattfarbe und Wuchsgeschwindigkeit früh beobachten"
+      ],
+      "common_confusions": [
+        "Natürliche Alterung einzelner unterer Blätter spät in der Blüte",
+        "Überwässerung mit gelblichen Blättern",
+        "pH-Lockout statt echter Unterversorgung",
+        "Allgemeiner Nährstoffmangel nach starkem Spülen"
+      ],
+      "red_flags": [
+        "Vergilbung steigt schnell die ganze Pflanze hoch",
+        "Neuwuchs wird ebenfalls stark gelb",
+        "Zusätzlich fauliger Geruch oder dauerhaft nasses Medium",
+        "Trotz Düngung keine Verbesserung im Neuwuchs"
+      ],
+      "when_to_escalate": "Wenn nach Korrektur von pH und Gießverhalten der Neuwuchs weiterhin aufhellt oder mehrere Mangelbilder gleichzeitig auftreten, sollte die Gesamtstrategie für Medium, EC und Wurzelgesundheit überprüft werden.",
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "often_starts_on": "untere_blaetter",
+        "reversible_on_old_leaves": false
+      }
+    },
+    {
+      "id": "mold",
+      "slug": "schimmel",
+      "name": "Schimmel",
+      "subtitle": "Typisch: Mehltau oder Bud Rot",
+      "category": "krankheit",
+      "priority": 2,
+      "overview": "Schimmel tritt besonders bei hoher Luftfeuchte, schlechter Luftbewegung und feuchten Mikroklimata auf. Häufig sind weißer Belag auf Blättern (Mehltau) oder von innen faulende Blüten (Bud Rot/Botrytis).",
+      "severity_if_ignored": "hoch",
+      "common_growth_stages": ["spaete_vegetation", "bluete", "trocknung"],
+      "key_symptoms": [
+        "Weißer, pudriger Belag auf Blättern oder Blattstielen",
+        "Braune, graue oder matschige Stellen in Blüten",
+        "Blütenteile sterben von innen ab",
+        "Muffiger oder fauliger Geruch",
+        "Befall breitet sich bei dichter Pflanze oft schnell aus"
+      ],
+      "likely_causes": [
+        "Zu hohe Luftfeuchtigkeit",
+        "Schwache Umluft oder stehende Lufttaschen",
+        "Dichtes Blätterdach oder sehr kompakte Buds",
+        "Nasse Pflanzenteile über längere Zeit",
+        "Eingeschleppte Sporen durch Pflanzenmaterial, Kleidung oder unhygienische Umgebung"
+      ],
+      "how_to_confirm": [
+        "Weißen Belag vorsichtig visuell prüfen: Mehltau sitzt meist oberflächlich",
+        "Blüten leicht öffnen und auf innere Braunfärbung oder graues Pilzgewebe achten",
+        "Auf lokale Feuchtigkeitsnester im dichten Canopy achten",
+        "Prüfen, ob Befall besonders in schattigen, schlecht belüfteten Zonen sitzt"
+      ],
+      "immediate_actions": [
+        "Befallene Pflanzenteile sofort isolieren und sauber entfernen",
+        "Luftfeuchte senken und Luftbewegung verbessern",
+        "Keine stark befallenen Blüten weiterverwenden",
+        "Werkzeuge, Hände und Arbeitsflächen nach Kontakt reinigen"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Befall stoppen",
+          "details": "Sichtbar betroffene Bereiche sofort entfernen. Bei Bud Rot lieber großzügig schneiden als knapp."
+        },
+        {
+          "step": 2,
+          "title": "Klima korrigieren",
+          "details": "Feuchte senken, Luftaustausch verbessern und tote, dichte Pflanzenmasse reduzieren. In der Blüte sind trockene, gut bewegte Luft und keine stehenden Feuchtenester entscheidend."
+        },
+        {
+          "step": 3,
+          "title": "Restbestand eng kontrollieren",
+          "details": "Mehrmals täglich kritische Zonen prüfen: Hauptcola, Innenbereich, Unterholz und schattige Stellen."
+        },
+        {
+          "step": 4,
+          "title": "Nach der Ernte Hygienekette beachten",
+          "details": "Trocknung und Lagerung nicht zu feucht durchführen. Befallenes Material getrennt entsorgen."
+        }
+      ],
+      "prevention": [
+        "Luftfeuchte in der Blüte konsequent kontrollieren",
+        "Ausreichend Umluft und Frischluftaustausch sicherstellen",
+        "Pflanzen nicht unnötig dicht wachsen lassen",
+        "Nasse Blüten, Kondenswasser und Spritzwasser vermeiden",
+        "Saubere Werkzeuge, saubere Kleidung und Quarantäne für neue Pflanzen einplanen"
+      ],
+      "common_confusions": [
+        "Trichome auf Blüten mit Schimmel verwechseln",
+        "Staub oder Rückstände auf Blättern mit Mehltau verwechseln",
+        "Späte natürliche Blattalterung statt Pilzbefall"
+      ],
+      "red_flags": [
+        "Schimmel direkt in Blüten oder Hauptcolas",
+        "Mehrere Befallsherde gleichzeitig",
+        "Muffiger Geruch im Zelt oder Trockenraum",
+        "Befall kurz vor Ernte oder während Trocknung"
+      ],
+      "when_to_escalate": "Bei wiederkehrendem Befall muss das gesamte Klima- und Hygiene-Setup überprüft werden: Entfeuchtung, Luftführung, Pflanzendichte, Sanitation und Trocknungsprozess.",
+      "subtypes": [
+        {
+          "id": "powdery_mildew",
+          "name": "Echter Mehltau",
+          "marker": "Weißer, pudriger Belag auf Blattoberflächen"
+        },
+        {
+          "id": "bud_rot",
+          "name": "Bud Rot / Botrytis",
+          "marker": "Braun-graue, innen faulende Blütenbereiche"
+        }
+      ],
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "often_spreads_fast": true,
+        "consume_if_affected": false
+      }
+    },
+    {
+      "id": "pests",
+      "slug": "schaedlinge",
+      "name": "Schädlinge",
+      "subtitle": "Häufig: Spinnmilben, Trauermücken, Thripse, Blattläuse",
+      "category": "schaedlinge",
+      "priority": 3,
+      "overview": "Schädlingsprobleme beginnen oft unauffällig und eskalieren, wenn nicht früh gescoutet wird. Je nach Art treten Saugschäden, silbrige Flecken, Punktierungen, klebrige Rückstände, Larven im Medium oder Gespinste auf.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["keimling", "vegetation", "bluete"],
+      "key_symptoms": [
+        "Helle Sprenkel, silbrige Schabespuren oder verformte Blätter",
+        "Kleine Insekten auf Blattunterseiten oder im Substrat",
+        "Feine Gespinste bei stärkerem Spinnmilbenbefall",
+        "Klebrige Honigtau-Rückstände bei Läusen",
+        "Fliegende kleine Mücken über dauerhaft feuchtem Substrat"
+      ],
+      "likely_causes": [
+        "Einschleppung über neue Pflanzen, Stecklinge, Kleidung oder Werkzeuge",
+        "Zu seltene Kontrolle von Blattunterseiten und Substratoberfläche",
+        "Dauerhaft feuchtes Medium begünstigt Trauermücken",
+        "Warmes, trockenes Klima begünstigt Spinnmilben",
+        "Fehlende Quarantäne oder mangelhafte Hygiene"
+      ],
+      "how_to_confirm": [
+        "Blattunterseiten mit Lupe kontrollieren",
+        "Gelbtafeln oder blaue Klebetafeln zur Früherkennung einsetzen",
+        "Substratoberfläche auf Larven und fliegende Trauermücken prüfen",
+        "Befallsbild mit typischen Fraß- oder Saugeschäden abgleichen",
+        "Pest-Art möglichst vor Behandlung bestimmen"
+      ],
+      "immediate_actions": [
+        "Befallene Pflanze isolieren, wenn möglich",
+        "Stark befallene Blätter oder Hotspots entfernen",
+        "Monitoring sofort starten oder intensivieren",
+        "Wachstumsbedingungen anpassen: keine staunasse Erde, keine extreme Hitze-Trockenheit",
+        "Behandlung an den tatsächlichen Schädling anpassen, nicht blind sprühen"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Art bestimmen",
+          "details": "Spinnmilben, Thripse, Blattläuse und Trauermücken brauchen unterschiedliche Maßnahmen. Eine falsche Behandlung kostet Zeit und verschleppt den Befall."
+        },
+        {
+          "step": 2,
+          "title": "Befallsdruck senken",
+          "details": "Stark betroffene Pflanzenteile entfernen, Umfeld reinigen und adulte Tiere mit Tafeln oder gezielten Maßnahmen reduzieren."
+        },
+        {
+          "step": 3,
+          "title": "Larven- und Folgegenerationen mitdenken",
+          "details": "Nur sichtbare erwachsene Tiere zu treffen reicht oft nicht. Wiederholte Kontrollen und gegebenenfalls biologische Gegenspieler sind wichtig."
+        },
+        {
+          "step": 4,
+          "title": "IPM statt Einmalmaßnahme",
+          "details": "Prävention, Scouting, Hygiene, Klima und gezielte Gegenmaßnahmen kombinieren."
+        }
+      ],
+      "prevention": [
+        "Neue Pflanzen konsequent in Quarantäne halten",
+        "Grow-Raum, Werkzeuge und Hände sauber halten",
+        "Regelmäßig Blattunterseiten und Topfoberfläche kontrollieren",
+        "Klebetafeln als Frühwarnsystem nutzen",
+        "Gießverhalten und Klima so steuern, dass weder Dauerfeuchte noch extreme Trockenhitze entstehen"
+      ],
+      "common_confusions": [
+        "Nährstoffmangel statt Saugschaden",
+        "Staubpartikel statt Milben oder Eier",
+        "Überwässerung statt Trauermücken-Ursache",
+        "Lichtstress statt Thrips-Schabespuren"
+      ],
+      "red_flags": [
+        "Sichtbare Gespinste",
+        "Viele fliegende Trauermücken bei jedem Gießen",
+        "Rascher Befallsanstieg innerhalb weniger Tage",
+        "Mehrere Pflanzen gleichzeitig betroffen"
+      ],
+      "when_to_escalate": "Wenn der Befall trotz Hygiene, Klima-Anpassung und Monitoring weiter zunimmt, sollte ein konsequentes IPM-Konzept mit artspezifischer Gegenstrategie eingesetzt werden.",
+      "pest_profiles": [
+        {
+          "id": "spider_mites",
+          "name": "Spinnmilben",
+          "symptoms": ["helle Punktierungen", "feine Gespinste", "schnelle Ausbreitung bei warm-trockenem Klima"],
+          "focus_actions": ["Unterseiten kontrollieren", "Befallsherde früh entfernen", "Klima nicht heiß und extrem trocken werden lassen"]
+        },
+        {
+          "id": "fungus_gnats",
+          "name": "Trauermücken",
+          "symptoms": ["kleine schwarze Flieger über dem Medium", "Larven in feuchter Topfoberfläche", "oft in dauerhaft nasser Erde"],
+          "focus_actions": ["Oberfläche zwischen Gießgängen antrocknen lassen", "Gelbtafeln einsetzen", "Substratfeuchte und Hygiene verbessern"]
+        },
+        {
+          "id": "thrips",
+          "name": "Thripse",
+          "symptoms": ["silbrige Schabespuren", "kleine dunkle Kotpunkte", "verformte junge Blätter"],
+          "focus_actions": ["früh per Lupe erkennen", "befallene Blätter entfernen", "Monitoring engmaschig halten"]
+        },
+        {
+          "id": "aphids",
+          "name": "Blattläuse",
+          "symptoms": ["Kolonien an Trieben", "klebriger Honigtau", "verlangsamtes Wachstum"],
+          "focus_actions": ["Triebspitzen kontrollieren", "Hotspots entfernen", "Hygiene und Nützlingsstrategie erwägen"]
+        }
+      ],
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "needs_species_id": true,
+        "best_approach": "ipm"
+      }
+    },
+    {
+      "id": "overwatering",
+      "slug": "ueberwaesserung",
+      "name": "Überwässerung",
+      "subtitle": "Zu häufig oder zu viel gegossen",
+      "category": "giessen",
+      "priority": 4,
+      "overview": "Überwässerung bedeutet meist nicht nur zu viel Wasser pro Gießgang, sondern vor allem zu häufiges Gießen. Das Medium bleibt zu lange nass, die Wurzeln bekommen zu wenig Sauerstoff und die Pflanze zeigt hängende, oft schwere Blätter sowie verlangsamtes Wachstum.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["keimling", "vegetation", "bluete"],
+      "key_symptoms": [
+        "Hängende Blätter trotz nassem Medium",
+        "Blätter wirken schwer, prall oder nach unten gekrallt",
+        "Langsames Wachstum und lustlose Pflanze",
+        "Gelbliche Blätter oder Mangelbilder trotz vorhandener Nährstoffe",
+        "Topf bleibt ungewöhnlich lange schwer und feucht"
+      ],
+      "likely_causes": [
+        "Zu häufiges Gießen ohne Trockenphase",
+        "Zu großes Topfvolumen für kleine Pflanze",
+        "Schlechte Drainage oder verdichtetes Substrat",
+        "Zu wenig Luftporen im Medium",
+        "Gießschema nach Uhr statt nach tatsächlichem Bedarf"
+      ],
+      "how_to_confirm": [
+        "Topfgewicht vor und nach dem Gießen vergleichen",
+        "Fingerprobe oder Messung der Feuchte im Wurzelbereich",
+        "Drainage und Abfluss prüfen",
+        "Wurzeln bei starkem Verdacht kontrollieren: braune, schleimige oder faul riechende Wurzeln sind Warnsignale",
+        "Abgrenzen zu Unterwässerung: übergossene Blätter wirken oft schwerer statt trocken-schlapp"
+      ],
+      "immediate_actions": [
+        "Gießpause einlegen, bis das Medium sinnvoll abgetrocknet ist",
+        "Abfluss und Drainage sofort verbessern",
+        "Umluft im Wurzelzonenbereich indirekt unterstützen",
+        "Keine zusätzliche Düngung als Schnelllösung auf Verdacht"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Wasserstress stoppen",
+          "details": "Nicht weiter gießen, solange der Topf noch deutlich schwer ist und das Medium nass bleibt."
+        },
+        {
+          "step": 2,
+          "title": "Drainage verbessern",
+          "details": "Abflusslöcher, Untersetzer, Substratstruktur und Luftporen prüfen. Bei chronischem Problem hilft oft ein luftigeres Medium."
+        },
+        {
+          "step": 3,
+          "title": "Wurzelzone schützen",
+          "details": "Staunässe erhöht das Risiko für Wurzelprobleme und sekundäre Mangelbilder. Deshalb erst das Sauerstoffproblem lösen, dann über Nährstoffe nachdenken."
+        },
+        {
+          "step": 4,
+          "title": "Neuen Gießrhythmus etablieren",
+          "details": "Nach Bedarf gießen, nicht nach starrem Kalender. Topfgewicht und Pflanzensignal sind verlässlicher als fixe Intervalle."
+        }
+      ],
+      "prevention": [
+        "Topfgröße an Pflanzengröße anpassen",
+        "Substrat mit guter Drainage und Luftkapazität nutzen",
+        "Erst gießen, wenn die Pflanze es wirklich braucht",
+        "Untersetzer nicht dauerhaft voll Wasser stehen lassen",
+        "Nach jedem Run das Gießschema anhand von Topfgewicht und Trockenzeit optimieren"
+      ],
+      "common_confusions": [
+        "Unterwässerung: beide können hängende Blätter zeigen",
+        "Stickstoffmangel durch sekundäre Aufnahmeprobleme",
+        "Wurzelkrankheiten, die durch Dauerfeuchte mit ausgelöst wurden"
+      ],
+      "red_flags": [
+        "Fauliger Geruch aus dem Topf",
+        "Dauerhaft nasses Medium über mehrere Tage",
+        "Braune oder schleimige Wurzeln",
+        "Pflanze verschlechtert sich nach jedem weiteren Gießen"
+      ],
+      "when_to_escalate": "Wenn die Pflanze trotz Gießpause nicht aufrichtet oder die Wurzeln schlecht aussehen, muss das Problem als Wurzelzonen- oder Root-Rot-Risiko behandelt werden.",
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "core_issue": "sauerstoffmangel_an_den_wurzeln",
+        "fix_focus": "giessfrequenz_und_drainage"
+      }
+    }
+  ]
+}
