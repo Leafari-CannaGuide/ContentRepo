@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
-  "content_version": 4,
-  "last_updated": "2026-02-17T18:30:00Z",
+  "schema_version": 2,
+  "content_version": 5,
+  "last_updated": "2026-03-17T18:30:00Z",
   "articles": [
 
     {
@@ -12,9 +12,7 @@
       "subtitle": "Systematic Review & Meta-Analysis (BMJ, 2021)",
       "readingTimeMinutes": 9,
 
-      "image": {
-        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_bmj-2021-chronic-pain-wang.webp"
-      },
+      "imageName": "article_bmj-2021-chronic-pain-wang",
 
       "category": "schmerz",
       "tags": ["Systematic Review", "Meta-Analysis", "RCT"],
@@ -92,9 +90,7 @@
       "subtitle": "Randomized Controlled Trial (NEJM, 2017)",
       "readingTimeMinutes": 10,
 
-      "image": {
-        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_nejm-2017-cbd-dravet-devinsky.webp"
-      },
+      "imageName": "article_nejm-2017-cbd-dravet-devinsky",
 
       "category": "neurologie",
       "tags": ["RCT", "CBD"],
@@ -172,9 +168,7 @@
       "subtitle": "National Academies Report (2017)",
       "readingTimeMinutes": 11,
 
-      "image": {
-        "remoteURL": "https://leafari-cannaguide.github.io/ContentRepo/assets/med/article_nasem-2017-health-effects-cannabis.webp"
-      },
+      "imageName": "article_nasem-2017-health-effects-cannabis",
 
       "category": "basics",
       "tags": ["Evidence Report"],
