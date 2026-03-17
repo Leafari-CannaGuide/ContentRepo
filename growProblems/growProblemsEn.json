@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "last_updated": "2026-03-13",
+  "module": "wissen_anbau_haeufige_probleme",
+  "locale": "en",
+  "disclaimer": "The content is intended as general guidance for symptom recognition in home growing. Diagnoses are always probabilities. Multiple problems can occur at the same time.",
+  "ui": {
+    "card_group_title": "Common problems",
+    "detail_view_title": "Identify and solve problems"
+  },
+  "problems": [
+    {
+      "id": "yellow_leaves_n_deficiency",
+      "slug": "gelbe-blaetter-n-mangel",
+      "name": "Yellow Leaves",
+      "subtitle": "Common: nitrogen deficiency (N deficiency)",
+      "category": "naehrstoffmangel",
+      "priority": 1,
+      "overview": "A nitrogen deficiency usually shows up first on older, lower leaves. The plant reallocates mobile nitrogen into new growth, causing the lower leaves to become lighter, turn yellow, and later die off.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["vegetation", "fruehe_bluete"],
+      "key_symptoms": [
+        "Yellowing usually begins on lower, older leaves",
+        "The plant looks overall lighter or paler than usual",
+        "Yellow leaves wilt, can develop brown spots, and later fall off",
+        "Growth slows down",
+        "New shoots often stay greener than older foliage at first"
+      ],
+      "likely_causes": [
+        "Insufficient nutrient supply during vegetative growth",
+        "pH in the root zone is blocking uptake",
+        "Depleted substrate or going too long without feeding again",
+        "Root damage caused by waterlogging or lack of oxygen",
+        "Heavy flushing without a properly adjusted nutrient follow-up"
+      ],
+      "how_to_confirm": [
+        "Check whether the symptoms started at the bottom of the plant",
+        "Review the feeding schedule from the last 7 to 14 days",
+        "Check substrate or runoff pH",
+        "Inspect the root zone: a constantly wet medium can also contribute to deficiency symptoms",
+        "Compare whether the yellowing is mostly even rather than patchy"
+      ],
+      "immediate_actions": [
+        "Stabilize pH within the target range",
+        "Plan a moderate, growth-stage-appropriate nitrogen feeding instead of overcorrecting",
+        "Check watering habits and avoid waterlogging",
+        "Only remove heavily damaged, fully dead leaves once they no longer contribute"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Narrow down the cause",
+          "details": "Check pH and watering rhythm first, then the actual nutrient amount. A real nitrogen deficiency is often not only a fertilizer shortage, but sometimes an uptake lockout."
+        },
+        {
+          "step": 2,
+          "title": "Correct gently",
+          "details": "Increase nutrient supply carefully and adjust it to the current stage. Do not use aggressive overfeeding as a quick fix."
+        },
+        {
+          "step": 3,
+          "title": "Monitor progress",
+          "details": "New leaves are the best indicator. Already yellow leaves often do not turn green again; what matters is stabilizing the new growth."
+        },
+        {
+          "step": 4,
+          "title": "Avoid follow-up mistakes",
+          "details": "Do not water heavily, repot, and fertilize aggressively all at once. Too many corrections at the same time make diagnosis harder."
+        }
+      ],
+      "prevention": [
+        "Use grow nutrients appropriate for the stage",
+        "Do not let the substrate become depleted, especially during longer vegetative periods",
+        "Check pH regularly",
+        "Maintain a consistent watering rhythm instead of constant wetness",
+        "Watch leaf color and growth speed early"
+      ],
+      "common_confusions": [
+        "Natural aging of individual lower leaves late in flowering",
+        "Overwatering with yellowish leaves",
+        "pH lockout instead of a true shortage",
+        "General nutrient deficiency after heavy flushing"
+      ],
+      "red_flags": [
+        "Yellowing quickly moves up through the whole plant",
+        "New growth also turns strongly yellow",
+        "A rotten smell or constantly wet medium is present as well",
+        "No improvement in new growth despite feeding"
+      ],
+      "when_to_escalate": "If new growth keeps getting lighter after correcting pH and watering habits, or if several deficiency patterns appear at the same time, the overall strategy for medium, EC, and root health should be reviewed.",
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "often_starts_on": "untere_blaetter",
+        "reversible_on_old_leaves": false
+      }
+    },
+    {
+      "id": "mold",
+      "slug": "schimmel",
+      "name": "Mold",
+      "subtitle": "Typical: powdery mildew or bud rot",
+      "category": "krankheit",
+      "priority": 2,
+      "overview": "Mold appears especially with high humidity, poor air movement, and damp microclimates. Common forms are white residue on leaves (powdery mildew) or flowers rotting from the inside (bud rot/Botrytis).",
+      "severity_if_ignored": "hoch",
+      "common_growth_stages": ["spaete_vegetation", "bluete", "trocknung"],
+      "key_symptoms": [
+        "White, powdery residue on leaves or leaf stems",
+        "Brown, gray, or mushy spots in buds",
+        "Flower parts die off from the inside",
+        "Musty or rotten smell",
+        "In dense plants, the infection often spreads quickly"
+      ],
+      "likely_causes": [
+        "Humidity that is too high",
+        "Weak circulation or stagnant air pockets",
+        "Dense canopy or very compact buds",
+        "Wet plant parts for extended periods",
+        "Spores introduced through plant material, clothing, or an unhygienic environment"
+      ],
+      "how_to_confirm": [
+        "Inspect white residue carefully: powdery mildew usually sits on the surface",
+        "Gently open buds and check for internal browning or gray fungal tissue",
+        "Watch for local humidity pockets in a dense canopy",
+        "Check whether the infection is concentrated in shaded, poorly ventilated zones"
+      ],
+      "immediate_actions": [
+        "Immediately isolate and cleanly remove affected plant parts",
+        "Lower humidity and improve air movement",
+        "Do not use heavily infected buds any further",
+        "Clean tools, hands, and work surfaces after contact"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Stop the spread",
+          "details": "Remove visibly affected areas immediately. With bud rot, it is better to cut generously than too narrowly."
+        },
+        {
+          "step": 2,
+          "title": "Correct the climate",
+          "details": "Lower moisture, improve air exchange, and reduce dead, dense plant material. During flowering, dry, well-moving air and no stagnant damp pockets are crucial."
+        },
+        {
+          "step": 3,
+          "title": "Monitor the remaining plants closely",
+          "details": "Check critical zones several times a day: main cola, inner canopy, lower growth, and shaded areas."
+        },
+        {
+          "step": 4,
+          "title": "Maintain hygiene after harvest",
+          "details": "Do not dry or store material in overly humid conditions. Dispose of infected material separately."
+        }
+      ],
+      "prevention": [
+        "Control humidity consistently during flowering",
+        "Ensure sufficient air circulation and fresh air exchange",
+        "Do not let plants grow unnecessarily dense",
+        "Avoid wet buds, condensation, and splash water",
+        "Use clean tools and clothing, and quarantine new plants"
+      ],
+      "common_confusions": [
+        "Mistaking trichomes on buds for mold",
+        "Mistaking dust or residue on leaves for powdery mildew",
+        "Late natural leaf aging instead of fungal infection"
+      ],
+      "red_flags": [
+        "Mold directly inside buds or main colas",
+        "Multiple infection sites at the same time",
+        "Musty smell in the tent or drying room",
+        "Infection shortly before harvest or during drying"
+      ],
+      "when_to_escalate": "If the issue keeps returning, the entire climate and hygiene setup has to be reviewed: dehumidification, airflow, plant density, sanitation, and the drying process.",
+      "subtypes": [
+        {
+          "id": "powdery_mildew",
+          "name": "Powdery mildew",
+          "marker": "White, powdery residue on leaf surfaces"
+        },
+        {
+          "id": "bud_rot",
+          "name": "Bud Rot / Botrytis",
+          "marker": "Brown-gray, internally rotting flower areas"
+        }
+      ],
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "often_spreads_fast": true,
+        "consume_if_affected": false
+      }
+    },
+    {
+      "id": "pests",
+      "slug": "schaedlinge",
+      "name": "Pests",
+      "subtitle": "Common: spider mites, fungus gnats, thrips, aphids",
+      "category": "schaedlinge",
+      "priority": 3,
+      "overview": "Pest problems often begin subtly and escalate when scouting is not done early. Depending on the species, you may see sucking damage, silvery patches, stippling, sticky residue, larvae in the medium, or webbing.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["keimling", "vegetation", "bluete"],
+      "key_symptoms": [
+        "Light speckling, silvery scrape marks, or deformed leaves",
+        "Small insects on leaf undersides or in the substrate",
+        "Fine webbing with heavier spider mite infestations",
+        "Sticky honeydew residue with aphids",
+        "Small flying gnats above constantly moist substrate"
+      ],
+      "likely_causes": [
+        "Introduced through new plants, clones, clothing, or tools",
+        "Leaf undersides and substrate surface are checked too rarely",
+        "A constantly wet medium favors fungus gnats",
+        "Warm, dry climate favors spider mites",
+        "Lack of quarantine or poor hygiene"
+      ],
+      "how_to_confirm": [
+        "Check leaf undersides with a magnifier",
+        "Use yellow or blue sticky traps for early detection",
+        "Inspect the substrate surface for larvae and flying fungus gnats",
+        "Compare the damage pattern with typical feeding or sucking damage",
+        "Identify the pest species as closely as possible before treatment"
+      ],
+      "immediate_actions": [
+        "Isolate the affected plant if possible",
+        "Remove heavily infested leaves or hotspots",
+        "Start or intensify monitoring immediately",
+        "Adjust growing conditions: no waterlogged soil, no extreme heat-dryness",
+        "Match the treatment to the actual pest and do not spray blindly"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Identify the species",
+          "details": "Spider mites, thrips, aphids, and fungus gnats need different measures. A wrong treatment costs time and allows the infestation to spread."
+        },
+        {
+          "step": 2,
+          "title": "Reduce infestation pressure",
+          "details": "Remove heavily affected plant parts, clean the environment, and reduce adult populations with traps or targeted measures."
+        },
+        {
+          "step": 3,
+          "title": "Think about larvae and future generations",
+          "details": "Only hitting visible adult insects is often not enough. Repeated checks and, if necessary, beneficial organisms are important."
+        },
+        {
+          "step": 4,
+          "title": "Use IPM instead of a one-time measure",
+          "details": "Combine prevention, scouting, hygiene, climate, and targeted countermeasures."
+        }
+      ],
+      "prevention": [
+        "Keep new plants in strict quarantine",
+        "Keep the grow room, tools, and hands clean",
+        "Regularly inspect leaf undersides and the pot surface",
+        "Use sticky traps as an early warning system",
+        "Manage watering and climate so that neither constant wetness nor extreme dry heat develops"
+      ],
+      "common_confusions": [
+        "Nutrient deficiency instead of sucking damage",
+        "Dust particles instead of mites or eggs",
+        "Overwatering instead of the fungus gnat root cause",
+        "Light stress instead of thrips scrape marks"
+      ],
+      "red_flags": [
+        "Visible webbing",
+        "Many flying fungus gnats every time you water",
+        "Rapid infestation increase within a few days",
+        "Several plants affected at the same time"
+      ],
+      "when_to_escalate": "If the infestation keeps increasing despite hygiene, climate adjustment, and monitoring, a consistent IPM approach with a species-specific strategy should be used.",
+      "pest_profiles": [
+        {
+          "id": "spider_mites",
+          "name": "Spider mites",
+          "symptoms": ["light stippling", "fine webbing", "rapid spread in warm, dry climate"],
+          "focus_actions": ["Check undersides", "Remove infestation hotspots early", "Do not let the climate become hot and extremely dry"]
+        },
+        {
+          "id": "fungus_gnats",
+          "name": "Fungus gnats",
+          "symptoms": ["small black fliers above the medium", "larvae in the moist top layer", "often found in constantly wet soil"],
+          "focus_actions": ["Let the surface dry between waterings", "Use yellow sticky traps", "Improve substrate moisture management and hygiene"]
+        },
+        {
+          "id": "thrips",
+          "name": "Thrips",
+          "symptoms": ["silvery scrape marks", "small dark droppings", "deformed young leaves"],
+          "focus_actions": ["Detect early with a magnifier", "Remove affected leaves", "Keep monitoring tight"]
+        },
+        {
+          "id": "aphids",
+          "name": "Aphids",
+          "symptoms": ["colonies on shoots", "sticky honeydew", "slowed growth"],
+          "focus_actions": ["Check shoot tips", "Remove hotspots", "Consider hygiene and a beneficial insect strategy"]
+        }
+      ],
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "needs_species_id": true,
+        "best_approach": "ipm"
+      }
+    },
+    {
+      "id": "overwatering",
+      "slug": "ueberwaesserung",
+      "name": "Overwatering",
+      "subtitle": "Watered too often or too much",
+      "category": "giessen",
+      "priority": 4,
+      "overview": "Overwatering usually means not only too much water per watering, but above all watering too often. The medium stays wet for too long, the roots get too little oxygen, and the plant shows drooping, often heavy leaves as well as slowed growth.",
+      "severity_if_ignored": "mittel_bis_hoch",
+      "common_growth_stages": ["keimling", "vegetation", "bluete"],
+      "key_symptoms": [
+        "Drooping leaves despite a wet medium",
+        "Leaves look heavy, swollen, or clawed downward",
+        "Slow growth and a dull-looking plant",
+        "Yellowish leaves or deficiency symptoms despite nutrients being present",
+        "The pot stays unusually heavy and wet for a long time"
+      ],
+      "likely_causes": [
+        "Watering too often without a dry-back phase",
+        "Pot volume is too large for a small plant",
+        "Poor drainage or compacted substrate",
+        "Too few air pockets in the medium",
+        "Watering by schedule instead of actual need"
+      ],
+      "how_to_confirm": [
+        "Compare pot weight before and after watering",
+        "Use a finger test or measure moisture in the root zone",
+        "Check drainage and runoff",
+        "Inspect roots if suspicion is strong: brown, slimy, or foul-smelling roots are warning signs",
+        "Differentiate it from underwatering: overwatered leaves often feel heavier rather than dry and limp"
+      ],
+      "immediate_actions": [
+        "Pause watering until the medium has dried back appropriately",
+        "Improve runoff and drainage immediately",
+        "Indirectly support airflow around the root zone",
+        "Do not add extra nutrients as a quick guess-based fix"
+      ],
+      "treatment_plan": [
+        {
+          "step": 1,
+          "title": "Stop the water stress",
+          "details": "Do not water again as long as the pot is still clearly heavy and the medium remains wet."
+        },
+        {
+          "step": 2,
+          "title": "Improve drainage",
+          "details": "Check drainage holes, saucers, substrate structure, and air porosity. If the problem is chronic, a more airy medium often helps."
+        },
+        {
+          "step": 3,
+          "title": "Protect the root zone",
+          "details": "Waterlogging increases the risk of root problems and secondary deficiency patterns. Solve the oxygen problem first, then think about nutrients."
+        },
+        {
+          "step": 4,
+          "title": "Establish a new watering rhythm",
+          "details": "Water based on need, not on a rigid calendar. Pot weight and plant signals are more reliable than fixed intervals."
+        }
+      ],
+      "prevention": [
+        "Match pot size to plant size",
+        "Use a substrate with good drainage and air capacity",
+        "Only water when the plant truly needs it",
+        "Do not leave saucers permanently filled with water",
+        "After each run, refine the watering routine based on pot weight and dry-back time"
+      ],
+      "common_confusions": [
+        "Underwatering: both can cause drooping leaves",
+        "Nitrogen deficiency caused by secondary uptake problems",
+        "Root diseases that were also triggered by prolonged wetness"
+      ],
+      "red_flags": [
+        "A rotten smell coming from the pot",
+        "The medium stays wet for several days",
+        "Brown or slimy roots",
+        "The plant gets worse after every additional watering"
+      ],
+      "when_to_escalate": "If the plant does not perk up despite a watering pause, or if the roots look unhealthy, the issue should be treated as a root-zone or root-rot risk.",
+      "quick_facts": {
+        "easy_to_misdiagnose": true,
+        "core_issue": "sauerstoffmangel_an_den_wurzeln",
+        "fix_focus": "giessfrequenz_und_drainage"
+      }
+    }
+  ]
+}
