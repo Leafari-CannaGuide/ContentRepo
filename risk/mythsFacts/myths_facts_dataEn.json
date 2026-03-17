@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "last_updated": "2026-03-17",
+  "title": "Myths vs. Facts",
+  "sources": [
+    { "id": "src-cdc-about", "title": "CDC – Cannabis: FAQ & Basics", "url": "https://www.cdc.gov/cannabis/about/index.html" },
+    { "id": "src-cdc-cud", "title": "CDC – Cannabis Use Disorder", "url": "https://www.cdc.gov/cannabis/health-effects/cannabis-use-disorder.html" },
+    { "id": "src-cdc-driving", "title": "CDC – Cannabis and Driving", "url": "https://www.cdc.gov/cannabis/risk-factors/driving.html" },
+    { "id": "src-cdc-mental", "title": "CDC – Cannabis and Mental Health", "url": "https://www.cdc.gov/cannabis/risk-factors/mental-health.html" },
+    { "id": "src-cdc-teens", "title": "CDC – Cannabis and Teens", "url": "https://www.cdc.gov/cannabis/health-effects/cannabis-and-teens.html" },
+    { "id": "src-cdc-lung", "title": "CDC – Cannabis and Lung Health", "url": "https://www.cdc.gov/cannabis/health-effects/lung-health.html" },
+    { "id": "src-cdc-heart", "title": "CDC – Cannabis and Heart Health", "url": "https://www.cdc.gov/cannabis/health-effects/heart-health.html" },
+    { "id": "src-cdc-preg", "title": "CDC – Cannabis and Pregnancy", "url": "https://www.cdc.gov/cannabis/health-effects/pregnancy.html" },
+    { "id": "src-cdc-bf", "title": "CDC – Marijuana and Breastfeeding", "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/vaccine-medication-drugs/marijuana.html" },
+    { "id": "src-cdc-cbd", "title": "CDC – About CBD", "url": "https://www.cdc.gov/cannabis/about/about-cbd.html" },
+    { "id": "src-cdc-poison", "title": "CDC – Cannabis Poisoning", "url": "https://www.cdc.gov/cannabis/risk-factors/poisoning.html" },
+    { "id": "src-nida-cannabis", "title": "NIDA – Cannabis (Marijuana) DrugFacts", "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana" },
+    { "id": "src-nida-synth", "title": "NIDA – Synthetic Cannabinoids (K2/Spice)", "url": "https://nida.nih.gov/publications/drugfacts/synthetic-cannabinoids-k2spice" },
+    { "id": "src-fda-preg", "title": "FDA – Cannabis/CBD in Pregnancy and Breastfeeding", "url": "https://www.fda.gov/consumers/consumer-updates/what-you-should-know-about-using-cannabis-including-cbd-when-pregnant-or-breastfeeding" },
+    { "id": "src-fda-thc-kids", "title": "FDA – Warning About THC-Containing Food Products for Children", "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-warns-consumers-about-accidental-ingestion-children-food-products-containing-thc" },
+    { "id": "src-fda-d8", "title": "FDA/FTC – Warning About Delta-8 Copycat Products", "url": "https://www.fda.gov/news-events/press-announcements/fda-ftc-continue-joint-effort-protect-consumers-against-companies-illegally-selling-copycat-delta-8" }
+  ],
+  "items": [
+    {
+      "id": "m1",
+      "category": "Dependence",
+      "icon": "exclamationmark.triangle.fill",
+      "tint": "orange",
+      "myth": "Cannabis is not addictive.",
+      "fact": "Cannabis can be addictive. The risk increases with frequent use and early initiation.",
+      "tip": "Track your use days and set fixed break days each week.",
+      "links": [
+        { "id": "m1-l1", "title": "CDC – Cannabis Use Disorder", "url": "https://www.cdc.gov/cannabis/health-effects/cannabis-use-disorder.html" },
+        { "id": "m1-l2", "title": "NIDA – Cannabis DrugFacts", "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana" }
+      ]
+    },
+    {
+      "id": "m2",
+      "category": "Dependence",
+      "icon": "moon.zzz.fill",
+      "tint": "orange",
+      "myth": "There is no withdrawal from cannabis.",
+      "fact": "When reducing or stopping use, symptoms such as sleep problems, irritability, and restlessness can occur.",
+      "tip": "Lower the dose gradually and actively plan good sleep hygiene.",
+      "links": [
+        { "id": "m2-l1", "title": "NIDA – Withdrawal and Symptoms", "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana" }
+      ]
+    },
+    {
+      "id": "m3",
+      "category": "Dosing",
+      "icon": "hourglass.circle.fill",
+      "tint": "yellow",
+      "myth": "Edibles work immediately, and redosing is harmless.",
+      "fact": "The effect can start much later than expected. Redosing too early increases the risk of overconsumption.",
+      "tip": "After edibles, wait at least 2 hours before taking more.",
+      "links": [
+        { "id": "m3-l1", "title": "CDC – Cannabis Poisoning", "url": "https://www.cdc.gov/cannabis/risk-factors/poisoning.html" }
+      ]
+    },
+    {
+      "id": "m4",
+      "category": "Driving",
+      "icon": "car.fill",
+      "tint": "red",
+      "myth": "When I use cannabis, I drive more slowly and therefore more safely.",
+      "fact": "Cannabis can impair reaction time, attention, and coordination. This increases accident risk.",
+      "tip": "Keep use and driving strictly separate.",
+      "links": [
+        { "id": "m4-l1", "title": "CDC – Cannabis and Driving", "url": "https://www.cdc.gov/cannabis/risk-factors/driving.html" }
+      ]
+    },
+    {
+      "id": "m5",
+      "category": "Basics",
+      "icon": "checkmark.seal.fill",
+      "tint": "indigo",
+      "myth": "If something is legal, it is automatically harmless.",
+      "fact": "Legality says nothing about personal health risk or safer use.",
+      "tip": "Before use, check potency, situation, pre-existing conditions, and medication.",
+      "links": [
+        { "id": "m5-l1", "title": "CDC – Cannabis FAQ", "url": "https://www.cdc.gov/cannabis/about/index.html" }
+      ]
+    },
+    {
+      "id": "m6",
+      "category": "Method",
+      "icon": "lungs.fill",
+      "tint": "teal",
+      "myth": "Vaping cannabis is completely risk-free.",
+      "fact": "Vaping is not risk-free either. Serious lung injuries associated with cannabis vapes have been reported.",
+      "tip": "If you use, critically review the product source and ingredients.",
+      "links": [
+        { "id": "m6-l1", "title": "CDC – Cannabis FAQ", "url": "https://www.cdc.gov/cannabis/about/index.html" },
+        { "id": "m6-l2", "title": "CDC – Lung Health", "url": "https://www.cdc.gov/cannabis/health-effects/lung-health.html" }
+      ]
+    },
+    {
+      "id": "m7",
+      "category": "Method",
+      "icon": "flame.fill",
+      "tint": "red",
+      "myth": "Cannabis smoke is much cleaner than tobacco smoke.",
+      "fact": "Cannabis smoke also contains toxic and carcinogenic substances.",
+      "tip": "Smoke-free alternatives and lower frequency reduce the burden.",
+      "links": [
+        { "id": "m7-l1", "title": "CDC – Lung Health", "url": "https://www.cdc.gov/cannabis/health-effects/lung-health.html" }
+      ]
+    },
+    {
+      "id": "m8",
+      "category": "Environment",
+      "icon": "wind",
+      "tint": "purple",
+      "myth": "Secondhand cannabis smoke is harmless.",
+      "fact": "Secondhand exposure can be relevant to health. Indoors, THC can be measurable in the air.",
+      "tip": "Do not use in enclosed spaces when other people are present.",
+      "links": [
+        { "id": "m8-l1", "title": "CDC – Secondhand Smoke", "url": "https://www.cdc.gov/cannabis/health-effects/secondhand-smoke.html" }
+      ]
+    },
+    {
+      "id": "m9",
+      "category": "Potency",
+      "icon": "dial.high.fill",
+      "tint": "orange",
+      "myth": "THC strength does not matter, as long as the strain fits.",
+      "fact": "Higher THC potency is associated with more side effects and a higher risk of problematic use.",
+      "tip": "With higher THC, choose smaller doses and longer intervals.",
+      "links": [
+        { "id": "m9-l1", "title": "CDC – Health Effects", "url": "https://www.cdc.gov/cannabis/health-effects/index.html" }
+      ]
+    },
+    {
+      "id": "m10",
+      "category": "Youth Protection",
+      "icon": "person.2.fill",
+      "tint": "blue",
+      "myth": "Adolescents process cannabis the same way adults do.",
+      "fact": "The adolescent brain is still developing. Early and frequent use is associated with increased risks.",
+      "tip": "Delay initiation as much as possible; if use starts early, actively seek support.",
+      "links": [
+        { "id": "m10-l1", "title": "CDC – Cannabis and Teens", "url": "https://www.cdc.gov/cannabis/health-effects/cannabis-and-teens.html" },
+        { "id": "m10-l2", "title": "CDC – Brain Health", "url": "https://www.cdc.gov/cannabis/health-effects/brain-health.html" }
+      ]
+    },
+    {
+      "id": "m11",
+      "category": "Mental Health",
+      "icon": "brain.head.profile",
+      "tint": "purple",
+      "myth": "Cannabis always helps with anxiety.",
+      "fact": "Cannabis can also trigger anxiety, restlessness, or paranoid symptoms, especially at higher doses.",
+      "tip": "Manage set, setting, and dose carefully; pause use if anxiety reactions occur.",
+      "links": [
+        { "id": "m11-l1", "title": "CDC – Mental Health", "url": "https://www.cdc.gov/cannabis/risk-factors/mental-health.html" }
+      ]
+    },
+    {
+      "id": "m12",
+      "category": "Mental Health",
+      "icon": "waveform.path.ecg.rectangle",
+      "tint": "purple",
+      "myth": "Psychosis risk has nothing to do with cannabis.",
+      "fact": "Studies show an association between cannabis use and psychosis risk, especially with early and frequent use.",
+      "tip": "Be especially cautious if there is a family history and keep doses low.",
+      "links": [
+        { "id": "m12-l1", "title": "CDC – Mental Health", "url": "https://www.cdc.gov/cannabis/risk-factors/mental-health.html" },
+        { "id": "m12-l2", "title": "NIDA – Cannabis DrugFacts", "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana" }
+      ]
+    },
+    {
+      "id": "m13",
+      "category": "Cardiovascular",
+      "icon": "heart.fill",
+      "tint": "red",
+      "myth": "Cannabis has little effect on the heart and circulation.",
+      "fact": "Cannabis can affect heart rate and blood pressure; this can be relevant for people at risk.",
+      "tip": "If you have cardiovascular disease, clarify use with a medical professional beforehand.",
+      "links": [
+        { "id": "m13-l1", "title": "CDC – Heart Health", "url": "https://www.cdc.gov/cannabis/health-effects/heart-health.html" }
+      ]
+    },
+    {
+      "id": "m14",
+      "category": "Method",
+      "icon": "aqi.medium",
+      "tint": "teal",
+      "myth": "A bong or blunt is much easier on the lungs.",
+      "fact": "Combustion creates irritants and harmful substances, regardless of the specific smoking method.",
+      "tip": "If possible, reduce combustion products and plan breaks.",
+      "links": [
+        { "id": "m14-l1", "title": "CDC – Lung Health", "url": "https://www.cdc.gov/cannabis/health-effects/lung-health.html" }
+      ]
+    },
+    {
+      "id": "m15",
+      "category": "Pregnancy",
+      "icon": "figure.and.child.holdinghands",
+      "tint": "red",
+      "myth": "Cannabis is harmless during pregnancy because it is plant-based.",
+      "fact": "The CDC and FDA advise against cannabis use during pregnancy; THC can affect the child's development.",
+      "tip": "If you have nausea or sleep problems during pregnancy, discuss medical alternatives.",
+      "links": [
+        { "id": "m15-l1", "title": "CDC – Pregnancy", "url": "https://www.cdc.gov/cannabis/health-effects/pregnancy.html" },
+        { "id": "m15-l2", "title": "FDA – Consumer Update", "url": "https://www.fda.gov/consumers/consumer-updates/what-you-should-know-about-using-cannabis-including-cbd-when-pregnant-or-breastfeeding" }
+      ]
+    },
+    {
+      "id": "m16",
+      "category": "Breastfeeding",
+      "icon": "drop.fill",
+      "tint": "red",
+      "myth": "Hardly any THC reaches the baby during breastfeeding.",
+      "fact": "THC can pass into breast milk and remain detectable for an extended period.",
+      "tip": "Avoid THC-containing products while breastfeeding.",
+      "links": [
+        { "id": "m16-l1", "title": "CDC – Marijuana and Breastfeeding", "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/vaccine-medication-drugs/marijuana.html" }
+      ]
+    },
+    {
+      "id": "m17",
+      "category": "CBD",
+      "icon": "cross.case.fill",
+      "tint": "green",
+      "myth": "CBD is completely free of side effects.",
+      "fact": "CBD can cause side effects and interact with medications.",
+      "tip": "If you take long-term medication, clarify interactions with a doctor or pharmacist.",
+      "links": [
+        { "id": "m17-l1", "title": "CDC – About CBD", "url": "https://www.cdc.gov/cannabis/about/about-cbd.html" }
+      ]
+    },
+    {
+      "id": "m18",
+      "category": "CBD",
+      "icon": "shippingbox.fill",
+      "tint": "green",
+      "myth": "CBD products are always clean and correctly dosed.",
+      "fact": "Product quality and labeling can vary; some products unexpectedly contain THC or contaminants.",
+      "tip": "Use only products with transparent analysis and a reliable source.",
+      "links": [
+        { "id": "m18-l1", "title": "CDC – About CBD", "url": "https://www.cdc.gov/cannabis/about/about-cbd.html" }
+      ]
+    },
+    {
+      "id": "m19",
+      "category": "Child Safety",
+      "icon": "figure.2.and.child.holdinghands",
+      "tint": "orange",
+      "myth": "A little THC edible is not a big deal for children.",
+      "fact": "Accidental THC ingestion in children can cause severe symptoms and require clinical treatment.",
+      "tip": "Store THC products locked away, child-resistant, and separate from food.",
+      "links": [
+        { "id": "m19-l1", "title": "CDC – Cannabis Poisoning", "url": "https://www.cdc.gov/cannabis/risk-factors/poisoning.html" },
+        { "id": "m19-l2", "title": "FDA – Accidental Ingestion Warning", "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-warns-consumers-about-accidental-ingestion-children-food-products-containing-thc" }
+      ]
+    },
+    {
+      "id": "m20",
+      "category": "Delta-8",
+      "icon": "capsule.fill",
+      "tint": "orange",
+      "myth": "Delta-8 is mild and therefore automatically safe.",
+      "fact": "Delta-8 is psychoactive, can cause unexpected side effects, and is viewed critically by the FDA.",
+      "tip": "If the product situation is unclear, it is better to avoid it.",
+      "links": [
+        { "id": "m20-l1", "title": "FDA/FTC – Delta-8 Warning", "url": "https://www.fda.gov/news-events/press-announcements/fda-ftc-continue-joint-effort-protect-consumers-against-companies-illegally-selling-copycat-delta-8" }
+      ]
+    },
+    {
+      "id": "m21",
+      "category": "Synthetic Cannabinoids",
+      "icon": "bolt.fill",
+      "tint": "red",
+      "myth": "K2/Spice is basically the same as cannabis.",
+      "fact": "Synthetic cannabinoids differ greatly from natural cannabis and can cause severe, sometimes life-threatening reactions.",
+      "tip": "Consistently avoid synthetic cannabinoids.",
+      "links": [
+        { "id": "m21-l1", "title": "NIDA – Synthetic Cannabinoids", "url": "https://nida.nih.gov/publications/drugfacts/synthetic-cannabinoids-k2spice" }
+      ]
+    },
+    {
+      "id": "m22",
+      "category": "Use Patterns",
+      "icon": "calendar",
+      "tint": "indigo",
+      "myth": "Weekend-only use cannot become problematic.",
+      "fact": "Repeated weekend use can also lead to tolerance, loss of control, or risky situations.",
+      "tip": "Define rules (amount, occasion, breaks) and reflect regularly.",
+      "links": [
+        { "id": "m22-l1", "title": "CDC – Cannabis Use Disorder", "url": "https://www.cdc.gov/cannabis/health-effects/cannabis-use-disorder.html" }
+      ]
+    },
+    {
+      "id": "m23",
+      "category": "Medical Context",
+      "icon": "stethoscope",
+      "tint": "blue",
+      "myth": "Medical cannabis has no side effects.",
+      "fact": "Even in a medical context, there are side effects, interactions, and clear indication limits.",
+      "tip": "Use therapies only with professional support and documented goals.",
+      "links": [
+        { "id": "m23-l1", "title": "FDA – Cannabis/CBD Consumer Update", "url": "https://www.fda.gov/consumers/consumer-updates/what-you-should-know-about-using-cannabis-including-cbd-when-pregnant-or-breastfeeding" },
+        { "id": "m23-l2", "title": "NIDA – Cannabis DrugFacts", "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana" }
+      ]
+    }
+  ]
+}
